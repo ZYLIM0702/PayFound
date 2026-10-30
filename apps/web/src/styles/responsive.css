@@ -1,0 +1,147 @@
+/*
+ * Responsive shell: phone (<768px) app chrome, tablet (768-1279px) rails, workspace bars.
+ * Phone = bottom tab bar + compact top bar. Tablet = icon rails and two-column pages.
+ */
+:root { --pf-tabbar-h: 0px; --pf-top-h: 64px; }
+@media (max-width: 767px) {
+  :root { --pf-header-h: 56px; --pf-gutter: 16px; }
+  :root.pf-has-tabbar { --pf-tabbar-h: calc(60px + env(safe-area-inset-bottom)); }
+}
+@media (min-width: 768px) and (max-width: 1279px) { :root { --pf-gutter: 24px; } }
+
+@layer components {
+  /* ---------- Bottom tab bar (phones) ---------- */
+  .pf-tabbar { display: none; }
+  .pf-tabbar ul { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); align-items: stretch; list-style: none; margin: 0; padding: 0; }
+  .pf-tab { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 100%; min-height: 56px; padding: 6px 2px; border: 0; background: none; color: var(--pf-muted); font: 600 11px/1.1 var(--pf-font-text); letter-spacing: 0; -webkit-tap-highlight-color: transparent; cursor: pointer; transition: color var(--pf-dur), transform var(--pf-dur); }
+  .pf-tab:active { transform: scale(0.94); }
+  .pf-tab.on { color: var(--pf-ink); }
+  .pf-tab.on .pf-tab-label { font-weight: 700; }
+  .pf-tab-icon { position: relative; display: grid; place-items: center; width: 40px; height: 28px; border-radius: 999px; transition: background var(--pf-dur); }
+  .pf-tab.on .pf-tab-icon { background: var(--pf-sunk); }
+  .pf-tab-badge { position: absolute; top: -2px; right: 0; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 999px; background: var(--pf-blue); color: #fff; font: 600 10.5px/17px var(--pf-font-text); text-align: center; box-shadow: 0 0 0 2px var(--pf-surface); }
+  .pf-tab-dots { display: inline-flex; gap: 3px; } .pf-tab-dots i { width: 4.5px; height: 4.5px; border-radius: 50%; background: currentColor; }
+  .is-featured .pf-tab-icon { width: 52px; height: 52px; margin-top: -20px; background: var(--pf-ink); color: #fff; box-shadow: 0 6px 18px rgb(10 10 11 / 0.28), 0 0 0 4px var(--pf-surface); }
+  .is-featured .pf-tab.on .pf-tab-icon { background: var(--pf-blue); }
+  .is-featured .pf-tab { justify-content: flex-end; padding-bottom: 7px; }
+
+  /* ---------- Phone sheets ---------- */
+  .pf-msheet-overlay { position: fixed; inset: 0; z-index: 1190; background: rgb(10 10 11 / 0.45); animation: pf-fade 160ms ease both; }
+  .pf-bottom-sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1191; max-height: min(82dvh, 640px); overflow-y: auto; padding: 6px 0 calc(16px + env(safe-area-inset-bottom)); border-radius: 20px 20px 0 0; background: var(--pf-surface); box-shadow: var(--pf-shadow-float); animation: pf-sheet-up 260ms var(--pf-ease) both; outline: none; }
+  .pf-sheet-grip { display: block; width: 40px; height: 4px; margin: 4px auto 8px; border-radius: 4px; background: var(--pf-line-strong); }
+  .pf-search-sheet { position: fixed; left: 0; right: 0; top: 0; z-index: 1191; padding: calc(8px + env(safe-area-inset-top)) 12px 16px; background: var(--pf-surface); border-radius: 0 0 20px 20px; box-shadow: var(--pf-shadow-float); animation: pf-sheet-down 220ms var(--pf-ease) both; outline: none; }
+  .pf-search-row { display: flex; align-items: center; gap: 8px; height: 56px; padding-left: 8px; }
+  .pf-search-input { flex: 1; min-width: 0; height: 48px; border: 0; background: none; font: 500 17px var(--pf-font-text); color: var(--pf-ink); outline: none; }
+  .pf-search-actions { display: grid; gap: 8px; margin-top: 4px; }
+  .pf-search-actions .pf-btn { height: 48px; }
+
+  /* ---------- Phone app feel (<768px) ---------- */
+  @media (max-width: 767px) {
+    body { overscroll-behavior-y: none; -webkit-tap-highlight-color: transparent; }
+    .pf-has-tabbar body { padding-bottom: var(--pf-tabbar-h); }
+    .pf-tabbar { display: block; position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; padding-bottom: env(safe-area-inset-bottom); background: color-mix(in srgb, var(--pf-surface) 94%, transparent); backdrop-filter: saturate(1.4) blur(14px); border-top: 1px solid var(--pf-line); }
+    .pf-tabbar-hidden .pf-tabbar { display: none; }
+    /* Touch targets */
+    .pf-btn { min-height: 44px; }
+    .pf-btn.icon, .pf-btn.sm.icon { min-width: 44px; width: 44px; }
+    .pf-btn.sm { height: 44px; }
+    .pf-input, .pf-select, .pf-textarea, .pf-input.sm, .pf-select.sm { min-height: 44px; font-size: 16px; }
+    .pf-segmented button, .pf-tabs [role=tab], .pf-tabs button { min-height: 44px; }
+    .pf-toggle, .pf-check { min-height: 44px; }
+    .pf-skeleton { border-radius: 8px; }
+    /* Edge-to-edge cards */
+    .pf-card:not(.interactive), .pf-panel { border-left-width: 0; border-right-width: 0; border-radius: 0; }
+    .pf-bleed { margin-left: calc(var(--pf-gutter) * -1); margin-right: calc(var(--pf-gutter) * -1); }
+    /* Sticky section headers */
+    .pf-sticky-head { position: sticky; top: var(--pf-header-h); z-index: 5; background: var(--pf-surface); }
+    /* Native-feeling route transition */
+    .pf-route { animation: pf-route-in 200ms var(--pf-ease); }
+    .pf-footer { margin-top: 32px !important; }
+    .pf-demo-banner { padding: 5px 12px; font-size: 11.5px; line-height: 1.35; }
+    /* Dropdown / popover targets */
+    [role=menuitem] { min-height: 44px; }
+    /* Hover-only affordances: always show */
+    .pf-hist-actions { display: inline-flex; }
+    .pf-hist-actions button { width: 36px; height: 36px; }
+  }
+
+}
+
+@keyframes pf-route-in { from { opacity: 0; transform: translateX(14px); } }
+@keyframes pf-sheet-up { from { transform: translateY(100%); } }
+@keyframes pf-sheet-down { from { transform: translateY(-24px); opacity: 0; } }
+
+/* ---------- Workspace shell ---------- */
+.pf-ws-rail a { position: relative; }
+@media (max-width: 767px) {
+  .pf-ws-main { padding-bottom: calc(76px + env(safe-area-inset-bottom)) !important; }
+  .pf-ws-bar { background: color-mix(in srgb, var(--pf-surface) 94%, transparent); }
+}
+
+/* AG Grid inside a scroll container: the grid scrolls, never the page */
+.pf-grid { max-width: 100%; }
+@media (max-width: 767px) {
+  .pf-grid .ag-header-cell, .pf-grid .ag-cell { padding-left: 10px; padding-right: 10px; }
+  .pf-grid .ag-paging-panel { flex-wrap: wrap; height: auto; min-height: 48px; padding: 6px 10px; gap: 4px 12px; justify-content: flex-end; }
+}
+
+/* Assistant: fill the space between the top bar and the tab bar */
+.pf-agent-page { height: calc(100dvh - var(--pf-top-h) - var(--pf-tabbar-h)); }
+@media (max-width: 767px) {
+  .pf-agent-page.pf-agent { height: calc(100dvh - var(--pf-top-h) - var(--pf-tabbar-h)); }
+}
+
+/* ---------- Phone touch targets for assistant and home controls (unlayered, beats late-loaded page CSS) ---------- */
+@media (max-width: 767px) {
+  html .pf-suggest, html .pf-welcome-starters button, html .pf-ag-pill, html .pf-hist-new, html .pf-composer-btn, html .pf-hist-open, html .pf-copy { min-height: 44px; }
+  html .pf-ag-pill.icon, html .pf-composer-btn { min-width: 44px; }
+  html .pf-composer-send { width: 44px; height: 44px; }
+  html .pf-suggest, html .pf-welcome-starters button { font-size: 14px; }
+  html .pf-hist-row .pf-hist-open { height: 44px; }
+  html .pf-hist-actions button { width: 40px; height: 40px; }
+  html .pf-composer { padding: 10px 10px 8px 14px; }
+  html .pf-composer-input { font-size: 16px; }
+  html .pf-agent .openui-agent-mobile-header button, html .pf-agent .openui-agent-mobile-header [role=button] { min-width: 44px; min-height: 44px; }
+}
+@media (max-width: 767px) {
+  html .pf-footer a { display: inline-flex; align-items: center; min-height: 44px; }
+  html nav[aria-label=Breadcrumb] a { display: inline-flex; align-items: center; min-height: 44px; }
+  html .pf-hist-actions button { width: 44px; height: 44px; }
+}
+
+/* Grid/flex children may shrink below their content so AG Grid and tables scroll inside their own box */
+.pf-ws-main { min-width: 0; }
+.pf-ws-main .grid > *, .pf-ws-main .pf-panel, .pf-ws-main .pf-panel-body { min-width: 0; }
+.pf-ws-main .pf-grid { overflow: hidden; }
+@media (max-width: 767px) { .pf-ws-main .pf-panel-head { flex-wrap: wrap; } }
+@media (max-width: 767px) {
+  .pf-ws-main .pf-panel-head > * { min-width: 0; max-width: 100%; }
+  .pf-ws-main .pf-panel-head > .shrink-0 { flex-shrink: 1; }
+  .pf-ws-main .pf-segmented, main .pf-segmented { max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+  .pf-ws-main .pf-segmented > button, main .pf-segmented > button { flex: none; min-height: 44px; }
+}
+@media (max-width: 767px) { .pf-ws-main .pf-panel:has(.ag-studio-root) { overflow-x: auto; } .pf-ws-main .ag-studio-root { min-width: 560px; } }
+
+/* Phone touch targets: inline links in workspace panels, Bryntum toolbar buttons, range chips */
+@media (max-width: 767px) {
+  .pf-ws-main .pf-panel-head a.pf-link { display: inline-flex; align-items: center; min-height: 44px; }
+  .pf-ws-main .b-toolbar .b-button { min-width: 44px; min-height: 44px; }
+}
+
+/* Shopper phone tap targets (44px) without changing layout: text links/buttons grow vertically and cancel it with negative margin */
+@media (max-width: 767px) {
+  .pf-tap { display: inline-flex; align-items: center; min-height: 44px; margin-block: -12px; }
+  .pf-tap-chip { min-height: 32px; display: inline-flex; align-items: center; }
+  .pf-tap-chip::after { content: ''; position: absolute; inset: -8px; }
+  main:not(.pf-ws-main) button.pf-link { display: inline-flex; align-items: center; min-height: 44px; }
+  .pf-wish-title { display: inline-flex; align-items: center; min-height: 44px; }
+}
+@media (max-width: 767px) {
+  .pf-ws-main button.pf-chip, .pf-ws-main [data-report-section] ~ * button { min-height: 44px; }
+  .pf-ws-main li.pf-card > button { min-height: 44px; }
+  .pf-ws-main a.pf-link { display: inline-flex; align-items: center; min-height: 44px; }
+}
+@media (max-width: 767px) {
+  .pf-ws-main nav[aria-label="Settings sections"] > button { min-height: 44px; }
+  .pf-ws-main a[title="Ask the assistant about this"] { min-height: 44px; }
+}

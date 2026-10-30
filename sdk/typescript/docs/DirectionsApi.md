@@ -1,0 +1,81 @@
+# DirectionsApi
+
+All URIs are relative to *http://127.0.0.1:8000*
+
+| Method | HTTP request | Description |
+|------------- | ------------- | -------------|
+| [**routeApiRoutingRoutePost**](DirectionsApi.md#routeapiroutingroutepost) | **POST** /api/routing/route | Route |
+
+
+
+## routeApiRoutingRoutePost
+
+> any routeApiRoutingRoutePost(routeInput)
+
+Route
+
+### Example
+
+```ts
+import {
+  Configuration,
+  DirectionsApi,
+} from 'payfound-sdk';
+import type { RouteApiRoutingRoutePostRequest } from 'payfound-sdk';
+
+async function example() {
+  console.log("🚀 Testing payfound-sdk SDK...");
+  const config = new Configuration({ 
+    // To configure API key authorization: demoRole
+    apiKey: "YOUR API KEY",
+    // Configure HTTP bearer authorization: bearerAuth
+    accessToken: "YOUR BEARER TOKEN",
+  });
+  const api = new DirectionsApi(config);
+
+  const body = {
+    // RouteInput
+    routeInput: ...,
+  } satisfies RouteApiRoutingRoutePostRequest;
+
+  try {
+    const data = await api.routeApiRoutingRoutePost(body);
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+// Run the test
+example().catch(console.error);
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **routeInput** | [RouteInput](RouteInput.md) |  | |
+
+### Return type
+
+**any**
+
+### Authorization
+
+[demoRole](../README.md#demoRole), [bearerAuth](../README.md#bearerAuth)
+
+### HTTP request headers
+
+- **Content-Type**: `application/json`
+- **Accept**: `application/json`
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful Response |  -  |
+| **422** | Validation Error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+

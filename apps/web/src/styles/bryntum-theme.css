@@ -1,0 +1,178 @@
+/* PayFound skin for Bryntum Calendar. Loaded after svalbard-light.css; overrides its CSS variables. */
+.pf-bryntum.b-bryntum, .pf-bryntum .b-widget, .b-popup.b-bryntum, .b-tooltip.b-bryntum, .b-menu { font-family: var(--pf-font-text); }
+:root {
+  --pf-win-low: #0b7a43; --pf-win-low-bg: #e9f6ef;
+  --pf-win-mid: #a36200; --pf-win-mid-bg: #fff3dc;
+  --pf-win-high: #c3252d; --pf-win-high-bg: #fdecec;
+}
+.pf-bryntum, .b-bryntum {
+  --b-primary: var(--pf-blue);
+  --b-widget-border-radius: 10px;
+  --b-widget-border-radius-large: 14px;
+  --b-widget-border-color: var(--pf-line);
+  --b-panel-background: var(--pf-surface);
+  --b-calendar-border-color: var(--pf-line);
+  --b-calendar-event-border-radius: 8px;
+  --b-calendar-event-font-size: 12px;
+  --b-button-border-radius: 999px;
+  --b-button-icon-only-border-radius: 999px;
+  --b-button-font-weight: 600;
+  --b-neutral-25: var(--pf-ink-2);
+}
+
+/* Frame */
+.pf-pickup-cal { height: clamp(600px, calc(100dvh - 250px), 1300px); border: 1px solid var(--pf-line); border-radius: var(--pf-r-lg); overflow: hidden; background: var(--pf-surface); }
+.pf-pickup-cal .b-calendar { border-radius: 0; border: 0; }
+
+/* Toolbar: pill mode switcher */
+.pf-bryntum .b-calendar-toolbar, .pf-bryntum .b-toolbar.b-calendar-toolbar { background: var(--pf-surface); border-bottom: 1px solid var(--pf-line); padding: 10px 14px; gap: 6px; }
+.pf-bryntum .b-calendar-toolbar .b-button { border-radius: 999px; font-weight: 600; }
+.pf-bryntum .b-calendar-toolbar .b-today-button, .pf-bryntum .b-calendar-toolbar [data-ref=todayButton] { border: 1px solid var(--pf-line-strong); background: var(--pf-surface); color: var(--pf-ink); }
+.pf-bryntum .b-mode-selector { background: var(--pf-sunk); border-radius: 999px; padding: 3px; gap: 2px; }
+.pf-bryntum .b-mode-selector .b-button { height: 30px; min-height: 30px; padding: 0 14px; font-size: 13px; color: var(--pf-muted); background: transparent; border: 0; }
+.pf-bryntum .b-mode-selector .b-button.b-pressed { background: var(--pf-surface); color: var(--pf-ink); box-shadow: 0 1px 3px rgb(10 10 11 / .12); }
+.pf-bryntum .b-view-description { font-family: var(--pf-font-display); font-weight: 600; font-size: 18px; letter-spacing: -0.02em; color: var(--pf-ink); }
+
+/* Sidebar */
+.pf-bryntum .b-calendar-sidebar { background: var(--pf-canvas); border-inline-end: 1px solid var(--pf-line); }
+.pf-bryntum .b-calendar-sidebar .b-datepicker { background: transparent; }
+.pf-bryntum .b-datepicker .b-selected-date .b-calendar-cell-number, .pf-bryntum .b-datepicker .b-selected-date { background: var(--pf-ink); color: #fff; }
+.pf-bryntum .b-resourcefilter .b-list-item { border-radius: 8px; }
+
+/* Event types. renderData.cls lands on the .b-cal-event-wrap element. */
+.pf-bryntum .b-cal-event-wrap.pf-ev { --pf-ev-fg: var(--pf-win-low); --pf-ev-bg: var(--pf-win-low-bg); }
+.pf-bryntum .b-cal-event-wrap.pf-ev.pf-tone-mid { --pf-ev-fg: var(--pf-win-mid); --pf-ev-bg: var(--pf-win-mid-bg); }
+.pf-bryntum .b-cal-event-wrap.pf-ev.pf-tone-high { --pf-ev-fg: var(--pf-win-high); --pf-ev-bg: var(--pf-win-high-bg); }
+.pf-bryntum .b-cal-event-wrap.pf-ev-order { --pf-ev-fg: #fff; --pf-ev-bg: var(--pf-ink); }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event { background: var(--pf-ev-bg) !important; color: var(--pf-ev-fg) !important; border: 1px solid color-mix(in srgb, var(--pf-ev-fg) 30%, transparent); border-radius: 8px; overflow: hidden; }
+.pf-bryntum .b-cal-event-wrap.pf-ev-window .b-cal-event { border-inline-start: 4px solid var(--pf-ev-fg); }
+.pf-bryntum .b-cal-event-wrap.pf-ev-order .b-cal-event { border-color: var(--pf-ink); }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event-body, .pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event-desc, .pf-bryntum .b-cal-event-wrap.pf-ev .b-event-time, .pf-bryntum .b-cal-event-wrap.pf-ev .b-event-header { color: inherit !important; background: transparent !important; }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event-desc { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-event-time { font-size: 11px; font-weight: 500; opacity: .8; }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event-icon { display: none; }
+.pf-bryntum .b-cal-event-wrap.pf-ev:hover .b-cal-event { filter: brightness(.96); }
+.pf-bryntum .b-cal-event-wrap.pf-ev-order:hover .b-cal-event { filter: brightness(1.3); }
+.pf-bryntum .b-cal-event-wrap.b-past-event { opacity: .85; }
+.pf-ev-title { font-size: 12px; font-weight: 600; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pf-ev-title b { font-weight: 700; font-variant-numeric: tabular-nums; }
+.pf-ev-meta { font-size: 11px; opacity: .8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pf-ev-fill-track { height: 4px; border-radius: 999px; background: color-mix(in srgb, currentColor 18%, transparent); overflow: hidden; }
+.pf-ev-fill { height: 100%; border-radius: 999px; background: currentColor; }
+.pf-bryntum .b-month-view .pf-ev-fill-track, .pf-bryntum .b-agenda-view .pf-ev-fill-track { display: none; }
+
+/* Tooltip */
+.b-tooltip.b-eventtip { border-radius: var(--pf-r-md); box-shadow: var(--pf-shadow-float); border: 1px solid var(--pf-line); padding: 0; background: var(--pf-surface); }
+.pf-tip { padding: 14px 16px; min-width: 240px; max-width: 320px; color: var(--pf-ink); font-family: var(--pf-font-text); }
+.pf-tip-kicker { font-size: 12px; font-weight: 600; color: var(--pf-muted); }
+.pf-tip-title { font-family: var(--pf-font-display); font-size: 18px; font-weight: 600; letter-spacing: -0.02em; margin: 2px 0 10px; }
+.pf-tip dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 0; font-size: 13px; }
+.pf-tip dt { color: var(--pf-muted); } .pf-tip dd { margin: 0; text-align: right; font-weight: 500; overflow-wrap: anywhere; }
+.pf-tip-note { margin: 10px 0 0; font-size: 12px; color: var(--pf-muted); }
+.pf-tip-link { display: inline-flex; align-items: center; justify-content: center; height: 34px; padding: 0 16px; margin-top: 14px; border-radius: 999px; background: var(--pf-ink); color: #fff; font-size: 13px; font-weight: 600; }
+.pf-tip-link:hover { background: #26272b; }
+
+/* Utilisation strip */
+.pf-util { display: flex; flex-wrap: wrap; align-items: stretch; background: var(--pf-surface); border: 1px solid var(--pf-line); border-radius: var(--pf-r-lg); }
+.pf-util-cells { display: flex; flex: 1 1 520px; flex-wrap: wrap; }
+.pf-util-cell { flex: 1 1 130px; display: flex; flex-direction: column; gap: 6px; padding: 16px 20px; border-inline-end: 1px solid var(--pf-line); }
+.pf-util-cell .pf-stat-number { font-size: 28px; }
+.pf-util-meter { flex: 1 1 240px; display: flex; flex-direction: column; justify-content: center; gap: 10px; padding: 16px 20px; }
+.pf-meter { height: 8px; border-radius: 999px; background: var(--pf-sunk); overflow: hidden; }
+.pf-meter i { display: block; height: 100%; border-radius: 999px; background: var(--pf-win-low); transition: width 320ms var(--pf-ease); }
+.pf-meter.pf-tone-mid i { background: var(--pf-win-mid); } .pf-meter.pf-tone-high i { background: var(--pf-win-high); }
+
+.pf-tip-list { margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid var(--pf-line); list-style: none; font-size: 12px; color: var(--pf-ink-2); display: grid; gap: 3px; font-variant-numeric: tabular-nums; }
+
+/* Neutral chrome: ink avatars, muted weekends, ink "today", ink date-picker header */
+.pf-bryntum .b-resource-avatar.b-resource-initials { background: var(--pf-ink) !important; color: #fff !important; font-weight: 600; }
+.pf-bryntum .b-weekend .b-day-name-part, .pf-bryntum .b-calendar-day-header.b-weekend, .pf-bryntum .b-weekend .b-day-num, .pf-bryntum .b-day-name.b-weekend, .pf-bryntum .b-dayname-date.b-weekend * { color: var(--pf-subtle) !important; }
+.pf-bryntum .b-day-name-date[aria-label^="Today"], .pf-bryntum .b-today .b-day-num, .pf-bryntum .b-day-num.b-today { background: var(--pf-ink) !important; color: #fff !important; border-color: var(--pf-ink) !important; box-shadow: none !important; }
+.pf-bryntum .b-date-picker-month-button, .pf-bryntum .b-date-picker-year-button, .pf-bryntum .b-date-picker-nav-button, .pf-bryntum .b-date-picker-title { color: var(--pf-ink) !important; }
+.pf-bryntum .b-calendar-panel-cell.b-today .b-date-picker-cell-inner { border-color: var(--pf-ink) !important; color: var(--pf-ink) !important; background: transparent !important; }
+.pf-bryntum .b-calendar-panel-cell.b-selected-date .b-date-picker-cell-inner, .pf-bryntum .b-calendar-panel-cell.b-selected-date.b-today .b-date-picker-cell-inner { background: var(--pf-ink) !important; color: #fff !important; border-color: var(--pf-ink) !important; }
+.pf-bryntum .b-calendar-panel-cell.b-weekend .b-date-picker-cell-inner { color: var(--pf-subtle); }
+.pf-bryntum .b-sidebar .b-calendar-panel-cell.b-today .b-date-picker-cell-inner { background: transparent !important; box-shadow: inset 0 0 0 1.5px var(--pf-ink); color: var(--pf-ink) !important; }
+.pf-bryntum .b-sidebar .b-calendar-panel-cell.b-selected-date .b-date-picker-cell-inner { background: var(--pf-ink) !important; color: #fff !important; box-shadow: none; }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-event-header { display: none; }
+
+/* ---- Pickup redesign: hour blocks, branch swimlane colours, rush ranges, rota, planning strip ---- */
+.pf-pickup-cal { height: clamp(720px, calc(100dvh - 120px), 1300px); border-radius: var(--pf-r-lg); box-shadow: 0 1px 2px rgb(10 10 11 / .04), 0 8px 24px rgb(10 10 11 / .06); }
+.pf-bryntum .b-cal-event-wrap.pf-ev { --pf-branch: var(--pf-blue); }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event { border-radius: 10px; box-shadow: 0 1px 2px rgb(10 10 11 / .06); border-inline-start: 5px solid var(--pf-branch, var(--pf-ev-fg)); padding-block: 2px; }
+.pf-bryntum .b-cal-event-wrap.pf-ev:hover .b-cal-event { box-shadow: 0 4px 14px rgb(10 10 11 / .14); transform: translateY(-1px); }
+.pf-bryntum .b-cal-event-wrap.pf-ev-full .b-cal-event { background-image: repeating-linear-gradient(135deg, transparent 0 8px, rgb(195 37 45 / .07) 8px 16px) !important; }
+.pf-ev-row { display: flex; align-items: baseline; gap: 6px; min-width: 0; white-space: nowrap; overflow: hidden; }
+.pf-ev-big { font-family: var(--pf-font-display); font-size: 20px; line-height: 1; font-weight: 600; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.pf-ev-of { font-size: 12px; font-weight: 500; opacity: .85; overflow: hidden; text-overflow: ellipsis; }
+.pf-ev-orders { margin-inline-start: auto; font-size: 11px; font-weight: 600; background: rgb(255 255 255 / .75); color: var(--pf-ink); padding: 1px 7px; border-radius: 999px; }
+.pf-ev-fill-track { height: 6px; margin-top: 5px; }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event-desc { gap: 0; }
+
+/* colour pop: day headers, branch resource headers, today */
+.pf-bryntum .b-calendar-day-header, .pf-bryntum .b-dayview-day-header, .pf-bryntum .b-resource-header { font-weight: 600; }
+.pf-bryntum .b-dayview-header, .pf-bryntum .b-daygridview-header { background: var(--pf-surface); border-bottom: 1px solid var(--pf-line); }
+.pf-bryntum .b-resource-header, .pf-bryntum .b-resource-column-header { overflow: visible; text-overflow: clip; white-space: normal; }
+.pf-bryntum .b-day-resource-header-cell, .pf-bryntum .b-dayview-day-header .b-cal-resource-header { min-width: 0; }
+.pf-bryntum .pf-br-0, .pf-bryntum .b-cal-event-wrap.pf-br-0 { --pf-branch: #0057ff; } .pf-bryntum .pf-br-1, .pf-bryntum .b-cal-event-wrap.pf-br-1 { --pf-branch: #0d9488; } .pf-bryntum .pf-br-2, .pf-bryntum .b-cal-event-wrap.pf-br-2 { --pf-branch: #7c3aed; } .pf-bryntum .pf-br-3, .pf-bryntum .b-cal-event-wrap.pf-br-3 { --pf-branch: #db2777; } .pf-bryntum .pf-br-4, .pf-bryntum .b-cal-event-wrap.pf-br-4 { --pf-branch: #ea580c; } .pf-bryntum .pf-br-5, .pf-bryntum .b-cal-event-wrap.pf-br-5 { --pf-branch: #0891b2; }
+.pf-bryntum .b-resource-avatar { display: none !important; }
+.pf-bryntum .b-day-name-date[aria-label^="Today"], .pf-bryntum .b-today .b-day-num { background: var(--pf-blue) !important; border-color: var(--pf-blue) !important; }
+
+/* rush-hour ranges (Bryntum time ranges / resource time ranges) */
+.pf-bryntum .b-cal-time-range.pf-rush { --b-primary: #ea580c; z-index: 0; pointer-events: none; }
+.pf-bryntum .b-cal-time-range.pf-rush .b-cal-time-range-body { background: repeating-linear-gradient(135deg, rgb(234 88 12 / .06) 0 10px, rgb(234 88 12 / .13) 10px 20px); border-block: 1px dashed rgb(234 88 12 / .45); }
+.pf-bryntum .b-cal-time-range.pf-rush .b-cal-time-range-header { color: #c2410c; font-size: 11px; font-weight: 700; background: transparent; }
+.pf-bryntum .b-cal-time-range { background: transparent; }
+
+/* rota */
+.pf-bryntum .b-cal-event-wrap.pf-shift .b-cal-event { border-inline-start: 5px solid var(--pf-blue); }
+.pf-bryntum .b-cal-event-wrap.pf-shift-desk { --pf-ev-fg: #0b3fb8; --pf-ev-bg: #e8efff; }
+.pf-bryntum .b-cal-event-wrap.pf-shift-pack { --pf-ev-fg: #0f6b62; --pf-ev-bg: #e2f5f2; }
+.pf-bryntum .b-cal-event-wrap.pf-shift-pack .b-cal-event { border-inline-start-color: #0d9488; }
+.pf-ev-shift { font-size: 13px; font-weight: 600; }
+.pf-bryntum .b-cal-event-wrap.pf-shift .pf-ev-meta { opacity: .8; }
+
+/* tooltip */
+.pf-tip-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; background: var(--pf-win-low-bg); color: var(--pf-win-low); }
+.pf-tip-pill.pf-tone-mid { background: var(--pf-win-mid-bg); color: var(--pf-win-mid); } .pf-tip-pill.pf-tone-high { background: var(--pf-win-high-bg); color: var(--pf-win-high); }
+.pf-tip-bar { margin: -2px 0 12px; height: 8px; color: var(--pf-win-low); } .pf-tip-bar.pf-tone-mid { color: var(--pf-win-mid); } .pf-tip-bar.pf-tone-high { color: var(--pf-win-high); }
+.pf-tip-sub { margin-top: 12px; font-size: 12px; font-weight: 600; color: var(--pf-muted); }
+.pf-tip-split li { display: flex; justify-content: space-between; } .pf-tip-split { border-top: 0; padding-top: 0; margin-top: 8px; }
+
+/* legend + planning strip */
+.pf-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+.pf-branch-chip { display: inline-flex; align-items: center; gap: 7px; height: 28px; padding: 0 12px; border-radius: 999px; background: var(--pf-surface); border: 1px solid var(--pf-line); font-size: 13px; font-weight: 600; white-space: nowrap; }
+.pf-branch-chip i { width: 10px; height: 10px; border-radius: 4px; background: var(--pf-branch); }
+.pf-branch-chip b { font-size: 12px; font-variant-numeric: tabular-nums; color: var(--pf-win-low); } .pf-branch-chip b.pf-tone-mid { color: var(--pf-win-mid); } .pf-branch-chip b.pf-tone-high { color: var(--pf-win-high); }
+.pf-lg { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--pf-muted); } .pf-lg::before { content: ''; width: 14px; height: 8px; border-radius: 3px; background: var(--pf-win-low); }
+.pf-lg.mid::before { background: var(--pf-win-mid); } .pf-lg.high::before { background: var(--pf-win-high); } .pf-lg.rush::before { background: repeating-linear-gradient(135deg, rgb(234 88 12 / .25) 0 4px, rgb(234 88 12 / .55) 4px 8px); }
+.pf-lg.tight::before { background: var(--pf-win-high); } .pf-lg.empty::before { background: var(--pf-line-strong); } .pf-lg.nocover::before { background: var(--pf-win-mid); }
+.pf-lg-sep { width: 1px; height: 18px; background: var(--pf-line); }
+.pf-util { flex-direction: column; flex-wrap: nowrap; overflow: hidden; }
+.pf-util-top { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--pf-line); }
+.pf-branch-chips, .pf-util-meter .pf-branch-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pf-util-meter .pf-branch-chip { height: 24px; padding: 0 9px; font-size: 12px; }
+.pf-cover { padding: 14px 20px 16px; display: grid; gap: 10px; }
+.pf-cover-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 14px; }
+.pf-cover-bars { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 6px; align-items: end; }
+.pf-cover-col { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 11px; color: var(--pf-muted); border-radius: 8px; padding: 4px 0 2px; }
+.pf-cover-bar { width: 100%; height: 64px; border-radius: 6px; background: var(--pf-sunk); display: flex; align-items: flex-end; overflow: hidden; }
+.pf-cover-bar i { display: block; width: 100%; border-radius: 6px 6px 0 0; background: var(--pf-win-low); transition: height 320ms var(--pf-ease); }
+.pf-cover-bar i.pf-tone-mid { background: var(--pf-win-mid); } .pf-cover-bar i.pf-tone-high { background: var(--pf-win-high); }
+.pf-flag-tight { background: var(--pf-win-high-bg); color: var(--pf-win-high); font-weight: 600; }
+.pf-flag-empty { background: var(--pf-sunk); outline: 1px dashed var(--pf-line-strong); }
+.pf-flag-nocover { background: var(--pf-win-mid-bg); color: var(--pf-win-mid); font-weight: 600; }
+.pf-cover-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+@media (max-width: 640px) { .pf-cover-bars { gap: 3px; } .pf-cover-col span { font-size: 9px; } .pf-pickup-cal { height: clamp(560px, calc(100dvh - 200px), 900px); } }
+
+.pf-bryntum .b-cal-event-wrap.pf-br-0 { --pf-branch: #0057ff; } .pf-bryntum .b-cal-event-wrap.pf-br-1 { --pf-branch: #0d9488; } .pf-bryntum .b-cal-event-wrap.pf-br-2 { --pf-branch: #7c3aed; } .pf-bryntum .b-cal-event-wrap.pf-br-3 { --pf-branch: #db2777; } .pf-bryntum .b-cal-event-wrap.pf-br-4 { --pf-branch: #ea580c; } .pf-bryntum .b-cal-event-wrap.pf-br-5 { --pf-branch: #0891b2; }
+
+.pf-bryntum .b-cal-event-wrap.pf-ev { --pf-ev-bg: #dff5e8; --pf-ev-fg: #0a6b3b; }
+.pf-bryntum .b-cal-event-wrap.pf-ev.pf-tone-mid { --pf-ev-bg: #ffecc2; --pf-ev-fg: #8a5300; }
+.pf-bryntum .b-cal-event-wrap.pf-ev.pf-tone-high { --pf-ev-bg: #ffd9d9; --pf-ev-fg: #b3171f; }
+.pf-bryntum .b-cal-event-wrap.b-past-event { opacity: .7; }
+.pf-bryntum .b-cal-event-wrap.pf-ev .b-cal-event { border-color: transparent; border-inline-start: 6px solid var(--pf-branch, var(--pf-ev-fg)); }
+.pf-rota .b-cal-event-wrap.b-past-event { opacity: 1; }
+.pf-rota .b-cal-event-wrap.pf-shift .b-cal-event { border-color: transparent; }
+.pf-bryntum .b-cal-event-wrap.pf-ev.pf-shift-desk { --pf-ev-fg: #0b3fb8; --pf-ev-bg: #dbe7ff; --pf-branch: #0057ff; }
+.pf-bryntum .b-cal-event-wrap.pf-ev.pf-shift-pack { --pf-ev-fg: #0f6b62; --pf-ev-bg: #d2f1ec; --pf-branch: #0d9488; }

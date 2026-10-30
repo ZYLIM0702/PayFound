@@ -1,0 +1,25 @@
+/* Maps, pins and filter toggles shared by Explore, Product and Storefront. */
+.pf-map { position: relative; isolation: isolate; width: 100%; height: 100%; min-height: 220px; background: var(--pf-canvas); overflow: hidden; }
+.pf-google-map { position: absolute; inset: 0; }
+.pf-map-loading { position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; padding: 24px; background: var(--pf-canvas); font-size: 13px; color: var(--pf-muted); text-align: center; }
+.pf-map-traffic-toggle { position: absolute; top: 12px; left: 12px; z-index: 3; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px; background: var(--pf-surface); border: 1px solid var(--pf-line-strong); border-radius: var(--pf-r-pill); box-shadow: 0 2px 8px rgb(10 10 11 / 0.12); font-size: 12px; font-weight: 600; color: var(--pf-muted); }
+.pf-map-traffic-toggle.on { color: var(--pf-ink); }
+.pf-google-attribution { font-family: Roboto, Arial, sans-serif; font-size: 12px; color: #5e5e5e; white-space: nowrap; }
+
+/* Pins: black, selected = blue */
+.pf-pin-wrap { background: none; border: 0; }
+.pf-pin { display: block; width: 28px; height: 36px; color: var(--pf-ink); filter: drop-shadow(0 3px 4px rgb(10 10 11 / 0.3)); transform-origin: 50% 100%; transition: transform 160ms var(--pf-ease), color 160ms var(--pf-ease); }
+.pf-pin svg { display: block; }
+.pf-pin:hover { transform: scale(1.1); }
+.pf-pin.selected { color: var(--pf-blue); transform: scale(1.25); }
+.pf-user-location-pin { display: block; width: 16px; height: 16px; border-radius: 50%; background: var(--pf-blue); border: 3px solid #fff; box-shadow: 0 0 0 8px rgb(0 87 255 / 0.2), 0 2px 6px rgb(10 10 11 / 0.3); }
+
+/* Filter toggles (checkbox styled as a pill) */
+.pf-toggle { position: relative; display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border: 1px solid var(--pf-line-strong); border-radius: var(--pf-r-pill); background: var(--pf-surface); font-size: 13px; font-weight: 600; white-space: nowrap; cursor: pointer; transition: background var(--pf-dur), color var(--pf-dur), border-color var(--pf-dur); }
+.pf-toggle:hover { border-color: var(--pf-ink); }
+.pf-toggle input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.pf-toggle:has(input:checked) { background: var(--pf-ink); border-color: var(--pf-ink); color: #fff; }
+.pf-toggle:has(input:focus-visible) { outline: 2px solid var(--pf-blue); outline-offset: 2px; }
+
+.pf-no-scrollbar { scrollbar-width: none; }
+.pf-no-scrollbar::-webkit-scrollbar { display: none; }

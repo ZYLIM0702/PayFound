@@ -1,0 +1,35 @@
+/* Report pack + report cards: screen helpers and the print (Export PDF) stylesheet.
+   Export PDF = window.print() on a page styled here: A4 landscape, app chrome hidden, one section per page. */
+.pf-report { --pf-report-ink: #0a0a0b; }
+.pf-report-print-header { display: none; }
+.pf-report-section { scroll-margin-top: 80px; }
+.pf-report table.pf-rt { width: 100%; border-collapse: collapse; font-size: 13px; }
+.pf-report table.pf-rt th { text-align: left; font-weight: 600; color: var(--pf-muted); padding: 8px 10px; border-bottom: 1px solid var(--pf-line-strong, #d6d9de); white-space: nowrap; }
+.pf-report table.pf-rt td { padding: 8px 10px; border-bottom: 1px solid var(--pf-line); }
+.pf-report table.pf-rt .num { text-align: right; font-variant-numeric: tabular-nums; }
+.pf-report .pf-bar-track { height: 10px; border-radius: 99px; background: var(--pf-sunk, #f1f2f4); overflow: hidden; }
+.pf-report .pf-bar-fill { height: 100%; border-radius: 99px; background: var(--pf-blue, #0057ff); }
+.pf-report .pf-bar-fill.ink { background: var(--pf-ink, #0a0a0b); }
+
+@media print {
+  @page { size: A4 landscape; margin: 12mm; }
+  html, body { background: #fff !important; color: #000 !important; }
+  /* hide application chrome */
+  .pf-ws-bar, .pf-ws-tabs, aside, nav, header, footer, .no-print, [data-radix-popper-content-wrapper], [role='dialog'] { display: none !important; }
+  div:has(> #main-content) { padding-left: 0 !important; }
+  .pf-ws-main, #main-content { padding: 0 !important; margin: 0 !important; max-width: none !important; }
+  .pf-report { -webkit-print-color-adjust: exact; print-color-adjust: exact; font-size: 12px; }
+  .pf-report-print-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding-bottom: 8px; margin-bottom: 14px; border-bottom: 2px solid #0a0a0b; }
+  .pf-report-print-header h1 { font-family: var(--pf-font-display, Jost, sans-serif); font-size: 22px; margin: 0; }
+  .pf-report-print-header p { margin: 2px 0 0; font-size: 11px; color: #444; }
+  /* one section per page */
+  .pf-report-section { break-inside: auto; box-shadow: none !important; border: 0 !important; padding: 0 !important; margin: 0 0 12px !important; background: #fff !important; }
+  .pf-report-section + .pf-report-section { break-before: page; }
+  .pf-report-section table, .pf-report-section .pf-keep, .pf-report-section svg { break-inside: avoid; }
+  .pf-report .pf-panel, .pf-report .pf-card, .pf-report .pf-stat { box-shadow: none !important; }
+  /* single-section export */
+  body.pf-print-one .pf-report-section:not(.pf-print-target) { display: none !important; }
+  body.pf-print-one .pf-report-section.pf-print-target { break-before: auto; }
+  body.pf-print-one .pf-report-extra { display: none !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+}

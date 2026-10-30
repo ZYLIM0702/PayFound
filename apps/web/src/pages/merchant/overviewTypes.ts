@@ -1,0 +1,38 @@
+export type OverviewAlert = { id: string; kind: 'stock' | 'orders' | 'weather'; severity: 'high' | 'medium' | 'low'; count: number; title: string; detail: string; to: string; action: string; ask: string };
+export type StoreBlock = { id: string; name: string; slug: string; is_open: boolean | null; status_override: string; branch_count: number; hours_today: string; rating: number | null; review_count: number; verified: boolean; timezone: string };
+export type Analytics = {
+  merchant_id: string; days: number; timezone: string; currency: string; store: StoreBlock; revenue_note: string;
+  revenue: Record<string, { date: string; amount_cents: number; orders: number }[]>;
+  orders_by_hour: { hour: number; orders: number }[];
+  top_by_quantity: { name: string; value: number }[]; top_by_revenue: { name: string; value: number }[];
+  stock_health: { in_stock: number; low: number; out: number; stale: number; threshold: number };
+  pickup_utilisation: { date: string; capacity: number; booked: number; utilisation_pct: number }[];
+  awaiting_confirmation: number; to_prepare: number; alerts: OverviewAlert[];
+};
+export type WxDay = { date: string; summary: string; code: number; temp_max_c: number | null; rain_chance_pct: number | null };
+export type DemandDay = { date: string; demand_index: number; weather_factor: number; event_factor: number; weekday_factor?: number; holiday_factor?: number; payday_factor?: number; weather_reason: string | null; event_reason: string | null; holiday_reason?: string | null; payday_reason?: string | null };
+export type Confidence = 'observed' | 'modelled' | 'demo' | 'not_modelled' | 'unavailable';
+export type ForecastDriver = { id: string; name: string; today_value: string; effect_pct: number[]; avg_effect_pct: number; peak_effect_pct: number; direction: 'up' | 'down' | 'mixed' | 'none'; confidence: Confidence; summary: string; data: string | null; ask: string };
+export type PickupDay = { date: string; weekday: string; slots_capacity: number; booked: number; free: number; expected_orders: number; rain_uplift_pct: number; flag: 'ok' | 'tight' | 'capped' | 'none'; orders_over_capacity: number; note: string | null };
+export type ForecastScenario = { id: string; title: string; assumption: string; days: string[]; delta_units_7d: number; delta_pct: number; summary: string; ask: string; extra_prep: { product_id: string; product: string; extra_units: number; available: number; short: boolean }[] };
+export type Forecast = {
+  label: string; method: string; generated_for: string; method_note: string;
+  weather: { source: string; days: WxDay[] };
+  events: { id: string; name: string; type: string; date: string; start: string | null; end: string | null; footfall: string; distance_km: number }[];
+  demand_index: { category: string; trend_factor: number; days: DemandDay[] }[];
+  prep: { product_id: string; product: string; category: string; suggested_quantity: number; available: number; expected_next_3_days: number; driver: 'weather' | 'event' | 'trend' | 'payday' | 'holiday' | 'weekday'; reason: string; headline?: string; note?: string | null }[];
+  stock_risks: { product_id: string; product: string; available: number; days_of_cover: number | null; severity: 'high' | 'medium'; reason: string }[];
+  insights: { title: string; body: string; ask: string }[];
+  weather_risk: OverviewAlert | null;
+  summary: { demand_index_today: number; demand_index_avg_7d: number; peak_day: string | null; rain_days: number; events_nearby: number; calendar_ahead: number; pickup_risk_days: number; out_of_stock_products: number; suppressed_products: number };
+  daily: { date: string; weekday: string; demand_index: number; expected_units: number }[];
+  confidence: { level: string; parts: { name: string; status: Confidence; detail: string }[] };
+  drivers: ForecastDriver[];
+  branches: { location_id: string; name: string; units_28d: number; share_pct: number; expected_units: number[]; expected_units_7d: number; pickup_capacity_7d: number; pickup_booked_7d: number }[];
+  calendar: { country: string; country_name: string; demo: boolean; note: string; payday_rule: string; entries: { date: string; name: string; kind: string; effect_pct: number; range_start: string; range_end: string }[]; paydays: string[];
+    horizon: { date: string; days_since_payday: number | null; days_to_payday: number | null; holidays: string[]; payday_label: string | null }[]; ahead_days: number; ahead_count: number };
+  stock_cover: { categories: { category: string; products: number; available_units: number; expected_units_7d: number; days_of_cover: number | null; out_of_stock_products: string[]; suppressed_days: number; status: 'out' | 'low' | 'ok'; note: string | null }[];
+    suppressed_products: { product_id: string; product: string; category: string; suppressed_days: number; rate_per_day: number; naive_rate_per_day: number }[]; note: string };
+  pickup_outlook: { days: PickupDay[]; risk_days: number; note: string };
+  scenarios: { label: string; baseline_units_7d: number; items: ForecastScenario[] };
+};

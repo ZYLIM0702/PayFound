@@ -1,0 +1,16 @@
+# Install the KEDA operator and managed Kafka connection secrets separately.
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata: {name: inventory-indexer}
+spec:
+  scaleTargetRef: {name: inventory-indexer}
+  minReplicaCount: 2
+  maxReplicaCount: 12
+  triggers:
+    - type: kafka
+      metadata:
+        bootstrapServers: kafka.internal:9092
+        topic: inventory.stock.v1
+        consumerGroup: payfound-indexer-v1
+        lagThreshold: '100'
+      authenticationRef: {name: kafka-auth}

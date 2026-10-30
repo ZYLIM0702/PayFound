@@ -1,0 +1,11 @@
+/* Leaflet chrome restyled to match the PayFound system. */
+.leaflet-container { font-family: var(--pf-font-text); font-size: 13px; background: var(--pf-canvas); }
+.leaflet-container .leaflet-popup-content-wrapper { border-radius: var(--pf-r-md); box-shadow: var(--pf-shadow-float); padding: 2px; color: var(--pf-ink); }
+.leaflet-container .leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.45; }
+.leaflet-container .leaflet-popup-content strong { font-weight: 600; }
+.leaflet-container .leaflet-popup-content p { margin: 4px 0 8px; color: var(--pf-muted); }
+.leaflet-container .leaflet-popup-content a { color: var(--pf-blue); font-weight: 600; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--pf-muted); }
+.leaflet-bar { border: 1px solid var(--pf-line-strong) !important; border-radius: var(--pf-r-md) !important; box-shadow: 0 2px 8px rgb(10 10 11 / 0.1) !important; overflow: hidden; }
+.leaflet-bar a { color: var(--pf-ink); border-bottom-color: var(--pf-line) !important; }
+.leaflet-container .leaflet-control-attribution { font-size: 10px; background: rgb(255 255 255 / 0.8); }

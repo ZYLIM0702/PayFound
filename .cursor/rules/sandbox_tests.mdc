@@ -1,0 +1,11 @@
+---
+description: Payment, role, and inventory validation instructions for local coding agents
+alwaysApply: true
+---
+When editing checkout, test with deterministic mock and actual PayPal sandbox separately. Never call mock payment a PayPal transaction.
+Use `PayPal-Request-Id` on every eligible modifying request. Do not retry uncertain captures with new IDs. Read provider order status.
+When editing stock, test conditional reservation with simultaneous buyers and expiry. An internal demo hold is not a POS hold.
+Every merchant-sensitive endpoint requires server-side authorization; never use `x-demo-role` outside localhost DEMO_MODE.
+Run `cd apps/api && PYTHONPATH=. pytest -q` after every backend change and `cd apps/web && npm run build` after UI edits once deps installed.
+AG Studio and Metronic have nontrivial licenses; do not publish licensed source without explicit permissions.
+For integrations, preserve data-source provenance, branch identity and consent: online offers are NOT physically local inventory.

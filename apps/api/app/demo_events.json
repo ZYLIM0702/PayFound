@@ -1,0 +1,17 @@
+{
+  "note": "Fictional demo events near the demo store areas (San Francisco). Not real listings. repeat_days re-runs an event every N days from date; end_date makes it multi-day.",
+  "events": [
+    {"id": "ev-market-civic", "name": "Civic Centre Saturday Market", "type": "market", "date": "2026-10-24", "repeat_days": 7, "start": "08:00", "end": "14:00", "lat": 37.7786, "lng": -122.4170, "footfall": "high", "boosts": ["Electronics", "Hardware", "Grocery"]},
+    {"id": "ev-market-mission", "name": "Mission Makers Night Market", "type": "market", "date": "2026-10-23", "repeat_days": 7, "start": "17:00", "end": "21:00", "lat": 37.7520, "lng": -122.4180, "footfall": "medium", "boosts": ["Hardware", "Grocery", "Pet essentials"]},
+    {"id": "ev-fix-cafe", "name": "Repair Cafe at the Library", "type": "market", "date": "2026-10-25", "repeat_days": 14, "start": "10:00", "end": "15:00", "lat": 37.7790, "lng": -122.4160, "footfall": "medium", "boosts": ["Hardware", "Electronics"]},
+    {"id": "ev-bike-sunday", "name": "Sunday Streets Bike Ride", "type": "festival", "date": "2026-10-25", "repeat_days": 14, "start": "09:00", "end": "16:00", "lat": 37.7820, "lng": -122.4040, "footfall": "high", "boosts": ["Sports & cycling"]},
+    {"id": "ev-school-half", "name": "School half-term break (demo district)", "type": "school_holiday", "date": "2026-10-26", "end_date": "2026-10-30", "lat": 37.7890, "lng": -122.4210, "footfall": "medium", "boosts": ["Electronics", "Pet essentials", "Sports & cycling"]},
+    {"id": "ev-school-winter", "name": "Winter school holiday (demo district)", "type": "school_holiday", "date": "2026-12-21", "end_date": "2027-01-04", "lat": 37.7890, "lng": -122.4210, "footfall": "medium", "boosts": ["Electronics", "Pet essentials"]},
+    {"id": "ev-sports-home", "name": "Bay Rovers home fixture", "type": "sports", "date": "2026-10-24", "repeat_days": 14, "start": "13:00", "end": "16:00", "lat": 37.7786, "lng": -122.3893, "footfall": "very_high", "boosts": ["Electronics", "Sports & cycling", "Grocery"]},
+    {"id": "ev-sports-youth", "name": "Youth league cup final", "type": "sports", "date": "2026-11-01", "repeat_days": 28, "start": "10:00", "end": "13:00", "lat": 37.7690, "lng": -122.4310, "footfall": "medium", "boosts": ["Sports & cycling", "Grocery"]},
+    {"id": "ev-lantern", "name": "Lantern Festival Parade", "type": "festival", "date": "2026-11-07", "repeat_days": 28, "start": "17:00", "end": "22:00", "lat": 37.7955, "lng": -122.4058, "footfall": "very_high", "boosts": ["Electronics", "Grocery"]},
+    {"id": "ev-blackfriday", "name": "Neighbourhood Late Shopping Night", "type": "festival", "date": "2026-11-27", "repeat_days": 56, "start": "16:00", "end": "22:00", "lat": 37.7740, "lng": -122.4190, "footfall": "very_high", "boosts": ["Electronics", "Audio", "Hardware"]},
+    {"id": "ev-pet-adopt", "name": "Pet Adoption Fair", "type": "market", "date": "2026-10-31", "repeat_days": 21, "start": "11:00", "end": "16:00", "lat": 37.7910, "lng": -122.4230, "footfall": "high", "boosts": ["Pet essentials"]},
+    {"id": "ev-harbour-run", "name": "Harbour Fun Run", "type": "sports", "date": "2026-11-15", "repeat_days": 35, "start": "08:00", "end": "12:00", "lat": 37.7950, "lng": -122.3930, "footfall": "high", "boosts": ["Sports & cycling", "Grocery"]}
+  ]
+}

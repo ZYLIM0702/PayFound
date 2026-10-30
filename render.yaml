@@ -1,0 +1,111 @@
+# Authenticated sandbox staging. Select current compute plans in Render before deployment.
+# API and worker share credentials; the worker never has its own encryption key.
+services:
+  - type: web
+    name: payfound-api
+    runtime: python
+    rootDir: apps/api
+    buildCommand: pip install -r requirements.lock
+    preDeployCommand: alembic upgrade head
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --no-access-log
+    healthCheckPath: /api/ready
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: DEMO_MODE
+        value: "false"
+      - key: PAYPAL_ENV
+        value: sandbox
+      - key: ENABLE_REMOTE_AI
+        value: "false"
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_PROJECT_URL
+        sync: false
+      - key: SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: SUPABASE_SECRET_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: SITE_ACCESS_KEY
+        sync: false
+      - key: PUBLIC_API_URL
+        sync: false
+      - key: PUBLIC_WEB_URL
+        sync: false
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_WEBHOOK_ID
+        sync: false
+      - key: CONNECTOR_ENCRYPTION_KEY
+        sync: false
+      - key: SHOPIFY_CLIENT_ID
+        sync: false
+      - key: SHOPIFY_CLIENT_SECRET
+        sync: false
+      - key: CHANNEL3_API_KEY
+        sync: false
+      - key: LLM_PROVIDER
+        value: openai-compatible
+      - key: LLM_MODEL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+  - type: worker
+    name: payfound-worker
+    runtime: python
+    rootDir: apps/api
+    buildCommand: pip install -r requirements.lock
+    startCommand: python -m app.worker
+    autoDeployTrigger: checksPass
+    maxShutdownDelaySeconds: 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: DEMO_MODE
+        value: "false"
+      - key: PAYPAL_ENV
+        value: sandbox
+      - key: DATABASE_URL
+        fromService: { name: payfound-api, type: web, envVarKey: DATABASE_URL }
+      - key: PAYPAL_CLIENT_ID
+        fromService: { name: payfound-api, type: web, envVarKey: PAYPAL_CLIENT_ID }
+      - key: PAYPAL_CLIENT_SECRET
+        fromService: { name: payfound-api, type: web, envVarKey: PAYPAL_CLIENT_SECRET }
+      - key: CONNECTOR_ENCRYPTION_KEY
+        fromService: { name: payfound-api, type: web, envVarKey: CONNECTOR_ENCRYPTION_KEY }
+      - key: SHOPIFY_CLIENT_ID
+        fromService: { name: payfound-api, type: web, envVarKey: SHOPIFY_CLIENT_ID }
+      - key: SHOPIFY_CLIENT_SECRET
+        fromService: { name: payfound-api, type: web, envVarKey: SHOPIFY_CLIENT_SECRET }
+      - key: PUBLIC_API_URL
+        fromService: { name: payfound-api, type: web, envVarKey: PUBLIC_API_URL }
+  - type: web
+    name: payfound-web
+    runtime: static
+    rootDir: apps/web
+    buildCommand: npm ci --no-audit --no-fund && npm run build
+    staticPublishPath: dist
+    autoDeployTrigger: checksPass
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: VITE_API_URL
+        sync: false
+      - key: VITE_AG_STUDIO_LICENSE_KEY
+        sync: false

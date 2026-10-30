@@ -1,0 +1,2296 @@
+{
+ "note": "Photographs of packaged items come from Open Food Facts (https://world.openfoodfacts.org) and are licensed CC BY-SA 3.0 by their contributors; they were downloaded once at build time and are served from this site, never hotlinked. Every other grocery item uses an original illustrated category tile (an emoji on a neutral background) and is not a photograph. Product names and pack sizes come from the Open Food Facts database (ODbL 1.0). Stores, prices and stock are fictional.",
+ "photo_source": {
+  "name": "Open Food Facts",
+  "url": "https://world.openfoodfacts.org",
+  "database_licence": "ODbL 1.0",
+  "image_licence": "CC BY-SA 3.0"
+ },
+ "photos": [
+  {
+   "file": "/images/products/off-0012000012785.webp",
+   "product_code": "0012000012785",
+   "source_url": "https://world.openfoodfacts.org/product/0012000012785",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/200/001/2785/front_en.4.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-020"
+   ]
+  },
+  {
+   "file": "/images/products/off-0012000028496.webp",
+   "product_code": "0012000028496",
+   "source_url": "https://world.openfoodfacts.org/product/0012000028496",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/200/002/8496/front_en.55.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-015",
+    "g22-021",
+    "g25-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-0012000041709.webp",
+   "product_code": "0012000041709",
+   "source_url": "https://world.openfoodfacts.org/product/0012000041709",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/200/004/1709/front_en.18.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-0012000173219.webp",
+   "product_code": "0012000173219",
+   "source_url": "https://world.openfoodfacts.org/product/0012000173219",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/200/017/3219/front_en.39.400.jpg",
+   "contributor": "mjcarrabine",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-019",
+    "g27-018",
+    "g33-017"
+   ]
+  },
+  {
+   "file": "/images/products/off-0014113912549.webp",
+   "product_code": "0014113912549",
+   "source_url": "https://world.openfoodfacts.org/product/0014113912549",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/411/391/2549/front_en.35.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-006"
+   ]
+  },
+  {
+   "file": "/images/products/off-0016000275263.webp",
+   "product_code": "0016000275263",
+   "source_url": "https://world.openfoodfacts.org/product/0016000275263",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/600/027/5263/front_en.77.400.jpg",
+   "contributor": "zlima12",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-010"
+   ]
+  },
+  {
+   "file": "/images/products/off-0016229901141.webp",
+   "product_code": "0016229901141",
+   "source_url": "https://world.openfoodfacts.org/product/0016229901141",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/622/990/1141/front_en.68.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-020",
+    "g24-019",
+    "g40-020"
+   ]
+  },
+  {
+   "file": "/images/products/off-0016229901158.webp",
+   "product_code": "0016229901158",
+   "source_url": "https://world.openfoodfacts.org/product/0016229901158",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/622/990/1158/front_en.60.400.jpg",
+   "contributor": "stephane",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g24-021",
+    "g27-022"
+   ]
+  },
+  {
+   "file": "/images/products/off-0016229901226.webp",
+   "product_code": "0016229901226",
+   "source_url": "https://world.openfoodfacts.org/product/0016229901226",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/622/990/1226/front_fr.25.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g25-017"
+   ]
+  },
+  {
+   "file": "/images/products/off-0017400140014.webp",
+   "product_code": "0017400140014",
+   "source_url": "https://world.openfoodfacts.org/product/0017400140014",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/001/740/014/0014/front_en.29.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-013"
+   ]
+  },
+  {
+   "file": "/images/products/off-0020685001666.webp",
+   "product_code": "0020685001666",
+   "source_url": "https://world.openfoodfacts.org/product/0020685001666",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/068/500/1666/front_en.15.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-036",
+    "g21-006",
+    "g32-035"
+   ]
+  },
+  {
+   "file": "/images/products/off-0021000658831.webp",
+   "product_code": "0021000658831",
+   "source_url": "https://world.openfoodfacts.org/product/0021000658831",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/100/065/8831/front_en.250.400.jpg",
+   "contributor": "beckanhaf",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-005",
+    "g33-013"
+   ]
+  },
+  {
+   "file": "/images/products/off-0024463061095.webp",
+   "product_code": "0024463061095",
+   "source_url": "https://world.openfoodfacts.org/product/0024463061095",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/446/306/1095/front_en.193.400.jpg",
+   "contributor": "snover543",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-009",
+    "g31-006"
+   ]
+  },
+  {
+   "file": "/images/products/off-0025500304212.webp",
+   "product_code": "0025500304212",
+   "source_url": "https://world.openfoodfacts.org/product/0025500304212",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/550/030/4212/front_en.29.400.jpg",
+   "contributor": "foodless",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-0028000553609.webp",
+   "product_code": "0028000553609",
+   "source_url": "https://world.openfoodfacts.org/product/0028000553609",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/800/055/3609/front_en.18.400.jpg",
+   "contributor": "foodiq",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-014"
+   ]
+  },
+  {
+   "file": "/images/products/off-0028000743079.webp",
+   "product_code": "0028000743079",
+   "source_url": "https://world.openfoodfacts.org/product/0028000743079",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/800/074/3079/front_en.3.400.jpg",
+   "contributor": "openfoodfacts-contributors",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-020",
+    "g27-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-0028400008617.webp",
+   "product_code": "0028400008617",
+   "source_url": "https://world.openfoodfacts.org/product/0028400008617",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/840/000/8617/front_en.122.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-004",
+    "g40-005"
+   ]
+  },
+  {
+   "file": "/images/products/off-0028400009973.webp",
+   "product_code": "0028400009973",
+   "source_url": "https://world.openfoodfacts.org/product/0028400009973",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/840/000/9973/front_en.73.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-012"
+   ]
+  },
+  {
+   "file": "/images/products/off-0028400071888.webp",
+   "product_code": "0028400071888",
+   "source_url": "https://world.openfoodfacts.org/product/0028400071888",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/002/840/007/1888/front_en.183.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-005"
+   ]
+  },
+  {
+   "file": "/images/products/off-0031146150601.webp",
+   "product_code": "0031146150601",
+   "source_url": "https://world.openfoodfacts.org/product/0031146150601",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/003/114/615/0601/front_en.297.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g18-028"
+   ]
+  },
+  {
+   "file": "/images/products/off-0034000400126.webp",
+   "product_code": "0034000400126",
+   "source_url": "https://world.openfoodfacts.org/product/0034000400126",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/003/400/040/0126/front_en.55.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-007",
+    "g33-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-0037600110754.webp",
+   "product_code": "0037600110754",
+   "source_url": "https://world.openfoodfacts.org/product/0037600110754",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/003/760/011/0754/front_en.105.400.jpg",
+   "contributor": "foodless",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g18-027",
+    "g30-011"
+   ]
+  },
+  {
+   "file": "/images/products/off-0039000045049.webp",
+   "product_code": "0039000045049",
+   "source_url": "https://world.openfoodfacts.org/product/0039000045049",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/003/900/004/5049/front_en.69.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-004"
+   ]
+  },
+  {
+   "file": "/images/products/off-0039978501035.webp",
+   "product_code": "0039978501035",
+   "source_url": "https://world.openfoodfacts.org/product/0039978501035",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/003/997/850/1035/front_en.122.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-005"
+   ]
+  },
+  {
+   "file": "/images/products/off-0044800750109.webp",
+   "product_code": "0044800750109",
+   "source_url": "https://world.openfoodfacts.org/product/0044800750109",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/004/480/075/0109/front_en.10.400.jpg",
+   "contributor": "foodless",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-006"
+   ]
+  },
+  {
+   "file": "/images/products/off-0047495112900.webp",
+   "product_code": "0047495112900",
+   "source_url": "https://world.openfoodfacts.org/product/0047495112900",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/004/749/511/2900/front_en.125.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-011",
+    "g21-023",
+    "g33-011"
+   ]
+  },
+  {
+   "file": "/images/products/off-0048000002488.webp",
+   "product_code": "0048000002488",
+   "source_url": "https://world.openfoodfacts.org/product/0048000002488",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/004/800/000/2488/front_en.160.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-009"
+   ]
+  },
+  {
+   "file": "/images/products/off-0048500205716.webp",
+   "product_code": "0048500205716",
+   "source_url": "https://world.openfoodfacts.org/product/0048500205716",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/004/850/020/5716/front_en.58.400.jpg",
+   "contributor": "fooducate.6930C484-E5BE-2F62-4199-8596EE8D28C5",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g27-021"
+   ]
+  },
+  {
+   "file": "/images/products/off-0048500205723.webp",
+   "product_code": "0048500205723",
+   "source_url": "https://world.openfoodfacts.org/product/0048500205723",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/004/850/020/5723/front_en.53.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-0049000027624.webp",
+   "product_code": "0049000027624",
+   "source_url": "https://world.openfoodfacts.org/product/0049000027624",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/004/900/002/7624/front_en.38.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-015"
+   ]
+  },
+  {
+   "file": "/images/products/off-0051500255162.webp",
+   "product_code": "0051500255162",
+   "source_url": "https://world.openfoodfacts.org/product/0051500255162",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/005/150/025/5162/front_en.197.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-009"
+   ]
+  },
+  {
+   "file": "/images/products/off-0054800423323.webp",
+   "product_code": "0054800423323",
+   "source_url": "https://world.openfoodfacts.org/product/0054800423323",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/005/480/042/3323/front_en.90.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g18-026",
+    "g31-014"
+   ]
+  },
+  {
+   "file": "/images/products/off-0058449770213.webp",
+   "product_code": "0058449770213",
+   "source_url": "https://world.openfoodfacts.org/product/0058449770213",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/005/844/977/0213/front_en.16.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-015"
+   ]
+  },
+  {
+   "file": "/images/products/off-0070847898245.webp",
+   "product_code": "0070847898245",
+   "source_url": "https://world.openfoodfacts.org/product/0070847898245",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/007/084/789/8245/front_en.76.400.jpg",
+   "contributor": "fooducate.695493CD-7986-2128-49A5-BED04755EE50",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-017",
+    "g27-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-0073416004306.webp",
+   "product_code": "0073416004306",
+   "source_url": "https://world.openfoodfacts.org/product/0073416004306",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/007/341/600/4306/front_en.47.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-008"
+   ]
+  },
+  {
+   "file": "/images/products/off-0074401760412.webp",
+   "product_code": "0074401760412",
+   "source_url": "https://world.openfoodfacts.org/product/0074401760412",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/007/440/176/0412/front_en.7.400.jpg",
+   "contributor": "openfoodfacts-contributors",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-027",
+    "g33-008"
+   ]
+  },
+  {
+   "file": "/images/products/off-0078742006673.webp",
+   "product_code": "0078742006673",
+   "source_url": "https://world.openfoodfacts.org/product/0078742006673",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/007/874/200/6673/front_en.36.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-014"
+   ]
+  },
+  {
+   "file": "/images/products/off-0078895126396.webp",
+   "product_code": "0078895126396",
+   "source_url": "https://world.openfoodfacts.org/product/0078895126396",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/007/889/512/6396/front_en.220.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-008",
+    "g30-012",
+    "g40-027"
+   ]
+  },
+  {
+   "file": "/images/products/off-0082592194152.webp",
+   "product_code": "0082592194152",
+   "source_url": "https://world.openfoodfacts.org/product/0082592194152",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/008/259/219/4152/front_en.116.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-018",
+    "g24-018",
+    "g27-023"
+   ]
+  },
+  {
+   "file": "/images/products/off-0083900005979.webp",
+   "product_code": "0083900005979",
+   "source_url": "https://world.openfoodfacts.org/product/0083900005979",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/008/390/000/5979/front_en.38.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-019",
+    "g22-017",
+    "g33-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-0084114902009.webp",
+   "product_code": "0084114902009",
+   "source_url": "https://world.openfoodfacts.org/product/0084114902009",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/008/411/490/2009/front_en.3.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-011"
+   ]
+  },
+  {
+   "file": "/images/products/off-0084380957444.webp",
+   "product_code": "0084380957444",
+   "source_url": "https://world.openfoodfacts.org/product/0084380957444",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/008/438/095/7444/front_en.88.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-025",
+    "g32-014"
+   ]
+  },
+  {
+   "file": "/images/products/off-0089686170726.webp",
+   "product_code": "0089686170726",
+   "source_url": "https://world.openfoodfacts.org/product/0089686170726",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/008/968/617/0726/front_en.239.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-025"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619112487.webp",
+   "product_code": "0096619112487",
+   "source_url": "https://world.openfoodfacts.org/product/0096619112487",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/911/2487/front_en.36.400.jpg",
+   "contributor": "openfoodfacts-contributors",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-026"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619142453.webp",
+   "product_code": "0096619142453",
+   "source_url": "https://world.openfoodfacts.org/product/0096619142453",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/914/2453/front_en.111.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619183074.webp",
+   "product_code": "0096619183074",
+   "source_url": "https://world.openfoodfacts.org/product/0096619183074",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/918/3074/front_en.50.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-005",
+    "g40-024"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619207640.webp",
+   "product_code": "0096619207640",
+   "source_url": "https://world.openfoodfacts.org/product/0096619207640",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/920/7640/front_en.37.400.jpg",
+   "contributor": "pantryvault",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-034"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619217939.webp",
+   "product_code": "0096619217939",
+   "source_url": "https://world.openfoodfacts.org/product/0096619217939",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/921/7939/front_en.49.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g19-021",
+    "g30-013"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619222490.webp",
+   "product_code": "0096619222490",
+   "source_url": "https://world.openfoodfacts.org/product/0096619222490",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/922/2490/front_en.37.400.jpg",
+   "contributor": "ferons",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-005"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619222698.webp",
+   "product_code": "0096619222698",
+   "source_url": "https://world.openfoodfacts.org/product/0096619222698",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/922/2698/front_en.27.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-004"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619362851.webp",
+   "product_code": "0096619362851",
+   "source_url": "https://world.openfoodfacts.org/product/0096619362851",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/936/2851/front_en.77.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-008",
+    "g22-006",
+    "g32-037",
+    "g40-010"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619488827.webp",
+   "product_code": "0096619488827",
+   "source_url": "https://world.openfoodfacts.org/product/0096619488827",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/948/8827/front_en.461.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-004"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619555505.webp",
+   "product_code": "0096619555505",
+   "source_url": "https://world.openfoodfacts.org/product/0096619555505",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/955/5505/front_en.457.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-025"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619756803.webp",
+   "product_code": "0096619756803",
+   "source_url": "https://world.openfoodfacts.org/product/0096619756803",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/975/6803/front_en.60.400.jpg",
+   "contributor": "hiimdannyganz",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-016",
+    "g25-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619846016.webp",
+   "product_code": "0096619846016",
+   "source_url": "https://world.openfoodfacts.org/product/0096619846016",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/984/6016/front_en.110.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-004"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619885718.webp",
+   "product_code": "0096619885718",
+   "source_url": "https://world.openfoodfacts.org/product/0096619885718",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/988/5718/front_en.96.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-004",
+    "g22-010"
+   ]
+  },
+  {
+   "file": "/images/products/off-0096619885725.webp",
+   "product_code": "0096619885725",
+   "source_url": "https://world.openfoodfacts.org/product/0096619885725",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/661/988/5725/front_en.122.400.jpg",
+   "contributor": "foodiq",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-011",
+    "g32-038",
+    "g40-008"
+   ]
+  },
+  {
+   "file": "/images/products/off-0097339000054.webp",
+   "product_code": "0097339000054",
+   "source_url": "https://world.openfoodfacts.org/product/0097339000054",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/009/733/900/0054/front_en.103.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-011"
+   ]
+  },
+  {
+   "file": "/images/products/off-01245200.webp",
+   "product_code": "01245200",
+   "source_url": "https://world.openfoodfacts.org/product/01245200",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/000/124/5200/front_en.62.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-0611269101713.webp",
+   "product_code": "0611269101713",
+   "source_url": "https://world.openfoodfacts.org/product/0611269101713",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/061/126/910/1713/front_en.68.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-023"
+   ]
+  },
+  {
+   "file": "/images/products/off-0613008735012.webp",
+   "product_code": "0613008735012",
+   "source_url": "https://world.openfoodfacts.org/product/0613008735012",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/061/300/873/5012/front_en.35.400.jpg",
+   "contributor": "odinh",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-016",
+    "g21-014",
+    "g26-026",
+    "g32-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-06827465.webp",
+   "product_code": "06827465",
+   "source_url": "https://world.openfoodfacts.org/product/06827465",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/000/682/7465/front_en.71.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-017"
+   ]
+  },
+  {
+   "file": "/images/products/off-0708747151930.webp",
+   "product_code": "0708747151930",
+   "source_url": "https://world.openfoodfacts.org/product/0708747151930",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/070/874/715/1930/front_en.56.400.jpg",
+   "contributor": "blakevlogsvlogs",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-035",
+    "g22-012",
+    "g40-009"
+   ]
+  },
+  {
+   "file": "/images/products/off-0716270001660.webp",
+   "product_code": "0716270001660",
+   "source_url": "https://world.openfoodfacts.org/product/0716270001660",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/071/627/000/1660/front_en.41.400.jpg",
+   "contributor": "adamokiz",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-012"
+   ]
+  },
+  {
+   "file": "/images/products/off-0745042112013.webp",
+   "product_code": "0745042112013",
+   "source_url": "https://world.openfoodfacts.org/product/0745042112013",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/074/504/211/2013/front_en.91.400.jpg",
+   "contributor": "foodless",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-005"
+   ]
+  },
+  {
+   "file": "/images/products/off-0810091780947.webp",
+   "product_code": "0810091780947",
+   "source_url": "https://world.openfoodfacts.org/product/0810091780947",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/081/009/178/0947/front_en.39.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-008",
+    "g40-011"
+   ]
+  },
+  {
+   "file": "/images/products/off-0810232020178.webp",
+   "product_code": "0810232020178",
+   "source_url": "https://world.openfoodfacts.org/product/0810232020178",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/081/023/202/0178/front_en.83.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-0810589032312.webp",
+   "product_code": "0810589032312",
+   "source_url": "https://world.openfoodfacts.org/product/0810589032312",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/081/058/903/2312/front_en.220.400.jpg",
+   "contributor": "foodiq",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-026",
+    "g39-026"
+   ]
+  },
+  {
+   "file": "/images/products/off-0815074022809.webp",
+   "product_code": "0815074022809",
+   "source_url": "https://world.openfoodfacts.org/product/0815074022809",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/081/507/402/2809/front_en.150.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-022",
+    "g30-010"
+   ]
+  },
+  {
+   "file": "/images/products/off-0818290016935.webp",
+   "product_code": "0818290016935",
+   "source_url": "https://world.openfoodfacts.org/product/0818290016935",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/081/829/001/6935/front_en.57.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-018",
+    "g27-017",
+    "g31-017",
+    "g32-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-0842595135084.webp",
+   "product_code": "0842595135084",
+   "source_url": "https://world.openfoodfacts.org/product/0842595135084",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/084/259/513/5084/front_en.112.400.jpg",
+   "contributor": "foodiq",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-024",
+    "g21-021",
+    "g27-024"
+   ]
+  },
+  {
+   "file": "/images/products/off-0846203004885.webp",
+   "product_code": "0846203004885",
+   "source_url": "https://world.openfoodfacts.org/product/0846203004885",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/084/620/300/4885/front_en.8.400.jpg",
+   "contributor": "smoothie-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-0850017468993.webp",
+   "product_code": "0850017468993",
+   "source_url": "https://world.openfoodfacts.org/product/0850017468993",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/085/001/746/8993/front_en.347.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-015"
+   ]
+  },
+  {
+   "file": "/images/products/off-0851769007751.webp",
+   "product_code": "0851769007751",
+   "source_url": "https://world.openfoodfacts.org/product/0851769007751",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/085/176/900/7751/front_en.82.400.jpg",
+   "contributor": "kjmj",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-010",
+    "g31-004"
+   ]
+  },
+  {
+   "file": "/images/products/off-0853311003600.webp",
+   "product_code": "0853311003600",
+   "source_url": "https://world.openfoodfacts.org/product/0853311003600",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/085/331/100/3600/front_en.47.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-021"
+   ]
+  },
+  {
+   "file": "/images/products/off-0853986008078.webp",
+   "product_code": "0853986008078",
+   "source_url": "https://world.openfoodfacts.org/product/0853986008078",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/085/398/600/8078/front_en.23.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-012",
+    "g22-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-0856416000710.webp",
+   "product_code": "0856416000710",
+   "source_url": "https://world.openfoodfacts.org/product/0856416000710",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/085/641/600/0710/front_en.71.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g39-025"
+   ]
+  },
+  {
+   "file": "/images/products/off-0857484006611.webp",
+   "product_code": "0857484006611",
+   "source_url": "https://world.openfoodfacts.org/product/0857484006611",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/085/748/400/6611/front_en.71.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-012"
+   ]
+  },
+  {
+   "file": "/images/products/off-0860479001522.webp",
+   "product_code": "0860479001522",
+   "source_url": "https://world.openfoodfacts.org/product/0860479001522",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/086/047/900/1522/front_en.336.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-0888127002967.webp",
+   "product_code": "0888127002967",
+   "source_url": "https://world.openfoodfacts.org/product/0888127002967",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/088/812/700/2967/front_en.24.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g24-017",
+    "g27-020",
+    "g31-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-0889392010015.webp",
+   "product_code": "0889392010015",
+   "source_url": "https://world.openfoodfacts.org/product/0889392010015",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/088/939/201/0015/front_en.66.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-017"
+   ]
+  },
+  {
+   "file": "/images/products/off-20004330.webp",
+   "product_code": "20004330",
+   "source_url": "https://world.openfoodfacts.org/product/20004330",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/000/4330/front_es.217.400.jpg",
+   "contributor": "laramba",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-009",
+    "g33-010"
+   ]
+  },
+  {
+   "file": "/images/products/off-20005559.webp",
+   "product_code": "20005559",
+   "source_url": "https://world.openfoodfacts.org/product/20005559",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/000/5559/front_es.30.400.jpg",
+   "contributor": "openfoodfacts-contributors",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-006"
+   ]
+  },
+  {
+   "file": "/images/products/off-20084035.webp",
+   "product_code": "20084035",
+   "source_url": "https://world.openfoodfacts.org/product/20084035",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/008/4035/front_fr.6.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g24-023"
+   ]
+  },
+  {
+   "file": "/images/products/off-20333737.webp",
+   "product_code": "20333737",
+   "source_url": "https://world.openfoodfacts.org/product/20333737",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/033/3737/front_en.107.400.jpg",
+   "contributor": "prepperapp",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-036"
+   ]
+  },
+  {
+   "file": "/images/products/off-20403027.webp",
+   "product_code": "20403027",
+   "source_url": "https://world.openfoodfacts.org/product/20403027",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/040/3027/front_en.267.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-023"
+   ]
+  },
+  {
+   "file": "/images/products/off-20481957.webp",
+   "product_code": "20481957",
+   "source_url": "https://world.openfoodfacts.org/product/20481957",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/048/1957/front_de.79.400.jpg",
+   "contributor": "moon-rabbit",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-009"
+   ]
+  },
+  {
+   "file": "/images/products/off-20621483.webp",
+   "product_code": "20621483",
+   "source_url": "https://world.openfoodfacts.org/product/20621483",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/002/062/1483/front_en.206.400.jpg",
+   "contributor": "factfinds",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-014",
+    "g32-008"
+   ]
+  },
+  {
+   "file": "/images/products/off-3123340008288.webp",
+   "product_code": "3123340008288",
+   "source_url": "https://world.openfoodfacts.org/product/3123340008288",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/312/334/000/8288/front_fr.47.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-3274080005003.webp",
+   "product_code": "3274080005003",
+   "source_url": "https://world.openfoodfacts.org/product/3274080005003",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/327/408/000/5003/front_en.797.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-3497911123350.webp",
+   "product_code": "3497911123350",
+   "source_url": "https://world.openfoodfacts.org/product/3497911123350",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/349/791/112/3350/front_fr.71.400.jpg",
+   "contributor": "foodless",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-009"
+   ]
+  },
+  {
+   "file": "/images/products/off-3564700738009.webp",
+   "product_code": "3564700738009",
+   "source_url": "https://world.openfoodfacts.org/product/3564700738009",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/356/470/073/8009/front_fr.45.400.jpg",
+   "contributor": "jelis",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-004"
+   ]
+  },
+  {
+   "file": "/images/products/off-3608580823452.webp",
+   "product_code": "3608580823452",
+   "source_url": "https://world.openfoodfacts.org/product/3608580823452",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/360/858/082/3452/front_en.77.400.jpg",
+   "contributor": "shisma",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-011"
+   ]
+  },
+  {
+   "file": "/images/products/off-3664346304863.webp",
+   "product_code": "3664346304863",
+   "source_url": "https://world.openfoodfacts.org/product/3664346304863",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/366/434/630/4863/front_en.86.400.jpg",
+   "contributor": "foodless",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-015",
+    "g32-010",
+    "g40-023"
+   ]
+  },
+  {
+   "file": "/images/products/off-4000539142628.webp",
+   "product_code": "4000539142628",
+   "source_url": "https://world.openfoodfacts.org/product/4000539142628",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/400/053/914/2628/front_en.11.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-006"
+   ]
+  },
+  {
+   "file": "/images/products/off-4068706641497.webp",
+   "product_code": "4068706641497",
+   "source_url": "https://world.openfoodfacts.org/product/4068706641497",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/406/870/664/1497/front_en.3.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-012"
+   ]
+  },
+  {
+   "file": "/images/products/off-4099100135756.webp",
+   "product_code": "4099100135756",
+   "source_url": "https://world.openfoodfacts.org/product/4099100135756",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/409/910/013/5756/front_en.18.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-024"
+   ]
+  },
+  {
+   "file": "/images/products/off-4099100207149.webp",
+   "product_code": "4099100207149",
+   "source_url": "https://world.openfoodfacts.org/product/4099100207149",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/409/910/020/7149/front_en.81.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-013"
+   ]
+  },
+  {
+   "file": "/images/products/off-42105220.webp",
+   "product_code": "42105220",
+   "source_url": "https://world.openfoodfacts.org/product/42105220",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/004/210/5220/front_en.90.400.jpg",
+   "contributor": "fooducate.6A68635C-4143-AD57-4675-961E9253825E",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g17-017"
+   ]
+  },
+  {
+   "file": "/images/products/off-4897036692455.webp",
+   "product_code": "4897036692455",
+   "source_url": "https://world.openfoodfacts.org/product/4897036692455",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/489/703/669/2455/front_en.14.400.jpg",
+   "contributor": "smoothie-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-017",
+    "g25-018",
+    "g31-020"
+   ]
+  },
+  {
+   "file": "/images/products/off-5011835102390.webp",
+   "product_code": "5011835102390",
+   "source_url": "https://world.openfoodfacts.org/product/5011835102390",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/501/183/510/2390/front_en.20.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-008",
+    "g31-012"
+   ]
+  },
+  {
+   "file": "/images/products/off-5400141036855.webp",
+   "product_code": "5400141036855",
+   "source_url": "https://world.openfoodfacts.org/product/5400141036855",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/540/014/103/6855/front_en.5.400.jpg",
+   "contributor": "youtoofan",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-024"
+   ]
+  },
+  {
+   "file": "/images/products/off-5449000000439.webp",
+   "product_code": "5449000000439",
+   "source_url": "https://world.openfoodfacts.org/product/5449000000439",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/544/900/000/0439/front_en.292.400.jpg",
+   "contributor": "super-pj",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-5449000036872.webp",
+   "product_code": "5449000036872",
+   "source_url": "https://world.openfoodfacts.org/product/5449000036872",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/544/900/003/6872/front_en.44.400.jpg",
+   "contributor": "smoothie-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-017"
+   ]
+  },
+  {
+   "file": "/images/products/off-5449000054227.webp",
+   "product_code": "5449000054227",
+   "source_url": "https://world.openfoodfacts.org/product/5449000054227",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/544/900/005/4227/front_en.563.400.jpg",
+   "contributor": "zeynepozturk11",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g24-020",
+    "g40-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-5449000061515.webp",
+   "product_code": "5449000061515",
+   "source_url": "https://world.openfoodfacts.org/product/5449000061515",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/544/900/006/1515/front_fr.46.400.jpg",
+   "contributor": "foodiq",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-016",
+    "g24-016",
+    "g25-021"
+   ]
+  },
+  {
+   "file": "/images/products/off-5449000206770.webp",
+   "product_code": "5449000206770",
+   "source_url": "https://world.openfoodfacts.org/product/5449000206770",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/544/900/020/6770/front_fr.4.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-014"
+   ]
+  },
+  {
+   "file": "/images/products/off-5449000214799.webp",
+   "product_code": "5449000214799",
+   "source_url": "https://world.openfoodfacts.org/product/5449000214799",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/544/900/021/4799/front_en.363.400.jpg",
+   "contributor": "g123k",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-020"
+   ]
+  },
+  {
+   "file": "/images/products/off-5901588018195.webp",
+   "product_code": "5901588018195",
+   "source_url": "https://world.openfoodfacts.org/product/5901588018195",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/590/158/801/8195/front_en.49.400.jpg",
+   "contributor": "neytronix",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-005"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111024004746.webp",
+   "product_code": "6111024004746",
+   "source_url": "https://world.openfoodfacts.org/product/6111024004746",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/102/400/4746/front_fr.23.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-014"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111035000430.webp",
+   "product_code": "6111035000430",
+   "source_url": "https://world.openfoodfacts.org/product/6111035000430",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/103/500/0430/front_en.104.400.jpg",
+   "contributor": "najibwanything",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g32-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111035001383.webp",
+   "product_code": "6111035001383",
+   "source_url": "https://world.openfoodfacts.org/product/6111035001383",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/103/500/1383/front_fr.25.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g26-025",
+    "g31-019"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111035003004.webp",
+   "product_code": "6111035003004",
+   "source_url": "https://world.openfoodfacts.org/product/6111035003004",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/103/500/3004/front_fr.12.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-019",
+    "g24-022"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111035003035.webp",
+   "product_code": "6111035003035",
+   "source_url": "https://world.openfoodfacts.org/product/6111035003035",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/103/500/3035/front_en.61.400.jpg",
+   "contributor": "yayan",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-013",
+    "g25-020",
+    "g40-021"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111128000163.webp",
+   "product_code": "6111128000163",
+   "source_url": "https://world.openfoodfacts.org/product/6111128000163",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/112/800/0163/front_fr.63.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-018"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111162000839.webp",
+   "product_code": "6111162000839",
+   "source_url": "https://world.openfoodfacts.org/product/6111162000839",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/116/200/0839/front_fr.52.400.jpg",
+   "contributor": "elmans",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-022",
+    "g40-022"
+   ]
+  },
+  {
+   "file": "/images/products/off-6111243860376.webp",
+   "product_code": "6111243860376",
+   "source_url": "https://world.openfoodfacts.org/product/6111243860376",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/611/124/386/0376/front_ar.17.400.jpg",
+   "contributor": "boboya",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g14-019",
+    "g17-022",
+    "g33-020",
+    "g40-013"
+   ]
+  },
+  {
+   "file": "/images/products/off-6191509900688.webp",
+   "product_code": "6191509900688",
+   "source_url": "https://world.openfoodfacts.org/product/6191509900688",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/619/150/990/0688/front_en.49.400.jpg",
+   "contributor": "qalzy",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-006"
+   ]
+  },
+  {
+   "file": "/images/products/off-8000500310427.webp",
+   "product_code": "8000500310427",
+   "source_url": "https://world.openfoodfacts.org/product/8000500310427",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/800/050/031/0427/front_fr.586.400.jpg",
+   "contributor": "org-ferrero-france-commerciale",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-013"
+   ]
+  },
+  {
+   "file": "/images/products/off-8008343200059.webp",
+   "product_code": "8008343200059",
+   "source_url": "https://world.openfoodfacts.org/product/8008343200059",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/800/834/320/0059/front_it.39.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-8076800195019.webp",
+   "product_code": "8076800195019",
+   "source_url": "https://world.openfoodfacts.org/product/8076800195019",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/807/680/019/5019/front_en.2385.400.jpg",
+   "contributor": "org-barilla-france-sa",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-027"
+   ]
+  },
+  {
+   "file": "/images/products/off-8410109050509.webp",
+   "product_code": "8410109050509",
+   "source_url": "https://world.openfoodfacts.org/product/8410109050509",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/841/010/905/0509/front_en.18.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g33-015"
+   ]
+  },
+  {
+   "file": "/images/products/off-8425197712024.webp",
+   "product_code": "8425197712024",
+   "source_url": "https://world.openfoodfacts.org/product/8425197712024",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/842/519/771/2024/front_en.60.400.jpg",
+   "contributor": "openfoodfacts-contributors",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g31-015"
+   ]
+  },
+  {
+   "file": "/images/products/off-8801073113893.webp",
+   "product_code": "8801073113893",
+   "source_url": "https://world.openfoodfacts.org/product/8801073113893",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/880/107/311/3893/front_en.277.400.jpg",
+   "contributor": "municorn-calorie-counter-app",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g40-026"
+   ]
+  },
+  {
+   "file": "/images/products/off-8803217017562.webp",
+   "product_code": "8803217017562",
+   "source_url": "https://world.openfoodfacts.org/product/8803217017562",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/880/321/701/7562/front_en.41.400.jpg",
+   "contributor": "macrofactor",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g30-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-8901491101844.webp",
+   "product_code": "8901491101844",
+   "source_url": "https://world.openfoodfacts.org/product/8901491101844",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/890/149/110/1844/front_en.32.400.jpg",
+   "contributor": "kiliweb",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-009"
+   ]
+  },
+  {
+   "file": "/images/products/off-8901491435109.webp",
+   "product_code": "8901491435109",
+   "source_url": "https://world.openfoodfacts.org/product/8901491435109",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/890/149/143/5109/front_en.18.400.jpg",
+   "contributor": "chunkieramos",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-010",
+    "g40-007"
+   ]
+  },
+  {
+   "file": "/images/products/off-9008700236584.webp",
+   "product_code": "9008700236584",
+   "source_url": "https://world.openfoodfacts.org/product/9008700236584",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/900/870/023/6584/front_en.5.400.jpg",
+   "contributor": "foodsloth",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g22-020",
+    "g33-016"
+   ]
+  },
+  {
+   "file": "/images/products/off-90162602.webp",
+   "product_code": "90162602",
+   "source_url": "https://world.openfoodfacts.org/product/90162602",
+   "original_image_url": "https://images.openfoodfacts.org/images/products/000/009/016/2602/front_en.151.400.jpg",
+   "contributor": "martepato",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "adaptation": "Resized to fit a 400 px white square and converted to WebP. Shared alike under CC BY-SA.",
+   "products": [
+    "g21-013",
+    "g22-015",
+    "g32-020"
+   ]
+  }
+ ],
+ "illustrations": {
+  "description": "Original illustrated tiles generated by PayFound; no third-party artwork.",
+  "files": {
+   "/images/products/illus-dairy-eggs-1f95b.webp": {
+    "category": "Dairy & eggs",
+    "emoji": "🥛"
+   },
+   "/images/products/illus-fresh-produce-1f34c.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍌"
+   },
+   "/images/products/illus-dairy-eggs-1f95a.webp": {
+    "category": "Dairy & eggs",
+    "emoji": "🥚"
+   },
+   "/images/products/illus-dairy-eggs-1f963.webp": {
+    "category": "Dairy & eggs",
+    "emoji": "🥣"
+   },
+   "/images/products/illus-dairy-eggs-1f9c0.webp": {
+    "category": "Dairy & eggs",
+    "emoji": "🧀"
+   },
+   "/images/products/illus-fresh-produce-1fadc.webp": {
+    "category": "Fresh produce",
+    "emoji": "🫜"
+   },
+   "/images/products/illus-fresh-produce-1f9c4.webp": {
+    "category": "Fresh produce",
+    "emoji": "🧄"
+   },
+   "/images/products/illus-fresh-produce-1fadb.webp": {
+    "category": "Fresh produce",
+    "emoji": "🫛"
+   },
+   "/images/products/illus-fresh-produce-1f96c.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥬"
+   },
+   "/images/products/illus-fresh-produce-1f966.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥦"
+   },
+   "/images/products/illus-fresh-produce-1f331.webp": {
+    "category": "Fresh produce",
+    "emoji": "🌱"
+   },
+   "/images/products/illus-bakery-1f369.webp": {
+    "category": "Bakery",
+    "emoji": "🍩"
+   },
+   "/images/products/illus-bakery-1fad3.webp": {
+    "category": "Bakery",
+    "emoji": "🫓"
+   },
+   "/images/products/illus-bakery-1f358.webp": {
+    "category": "Bakery",
+    "emoji": "🍘"
+   },
+   "/images/products/illus-fresh-produce-1f34e.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍎"
+   },
+   "/images/products/illus-fresh-produce-1f951.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥑"
+   },
+   "/images/products/illus-fresh-produce-1f954.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥔"
+   },
+   "/images/products/illus-fresh-produce-1f345.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍅"
+   },
+   "/images/products/illus-fresh-produce-1f348.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍈"
+   },
+   "/images/products/illus-fresh-produce-1f353.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍓"
+   },
+   "/images/products/illus-fresh-produce-1f9c5.webp": {
+    "category": "Fresh produce",
+    "emoji": "🧅"
+   },
+   "/images/products/illus-fresh-produce-1f95d.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥝"
+   },
+   "/images/products/illus-fresh-produce-1f360.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍠"
+   },
+   "/images/products/illus-fresh-produce-1f952.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥒"
+   },
+   "/images/products/illus-fresh-produce-1f349.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍉"
+   },
+   "/images/products/illus-fresh-produce-1f34a.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍊"
+   },
+   "/images/products/illus-fresh-produce-1fad0.webp": {
+    "category": "Fresh produce",
+    "emoji": "🫐"
+   },
+   "/images/products/illus-fresh-produce-1f33f.webp": {
+    "category": "Fresh produce",
+    "emoji": "🌿"
+   },
+   "/images/products/illus-fresh-produce-1f351.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍑"
+   },
+   "/images/products/illus-bakery-1f35e.webp": {
+    "category": "Bakery",
+    "emoji": "🍞"
+   },
+   "/images/products/illus-bakery-1f950.webp": {
+    "category": "Bakery",
+    "emoji": "🥐"
+   },
+   "/images/products/illus-bakery-1f32e.webp": {
+    "category": "Bakery",
+    "emoji": "🌮"
+   },
+   "/images/products/illus-bakery-1f370.webp": {
+    "category": "Bakery",
+    "emoji": "🍰"
+   },
+   "/images/products/illus-bakery-1f96e.webp": {
+    "category": "Bakery",
+    "emoji": "🥮"
+   },
+   "/images/products/illus-bakery-1f36a.webp": {
+    "category": "Bakery",
+    "emoji": "🍪"
+   },
+   "/images/products/illus-bakery-1f34c.webp": {
+    "category": "Bakery",
+    "emoji": "🍌"
+   },
+   "/images/products/illus-bakery-1f956.webp": {
+    "category": "Bakery",
+    "emoji": "🥖"
+   },
+   "/images/products/illus-bakery-1f967.webp": {
+    "category": "Bakery",
+    "emoji": "🥧"
+   },
+   "/images/products/illus-bakery-1f96f.webp": {
+    "category": "Bakery",
+    "emoji": "🥯"
+   },
+   "/images/products/illus-bakery-1f36b.webp": {
+    "category": "Bakery",
+    "emoji": "🍫"
+   },
+   "/images/products/illus-bakery-1f354.webp": {
+    "category": "Bakery",
+    "emoji": "🍔"
+   },
+   "/images/products/illus-ready-meals-1f951.webp": {
+    "category": "Ready meals",
+    "emoji": "🥑"
+   },
+   "/images/products/illus-drinks-2615.webp": {
+    "category": "Drinks",
+    "emoji": "☕"
+   },
+   "/images/products/illus-ready-meals-1f963.webp": {
+    "category": "Ready meals",
+    "emoji": "🥣"
+   },
+   "/images/products/illus-ready-meals-1f35a.webp": {
+    "category": "Ready meals",
+    "emoji": "🍚"
+   },
+   "/images/products/illus-ready-meals-1f419.webp": {
+    "category": "Ready meals",
+    "emoji": "🐙"
+   },
+   "/images/products/illus-drinks-1f9cb.webp": {
+    "category": "Drinks",
+    "emoji": "🧋"
+   },
+   "/images/products/illus-ready-meals-1f96d.webp": {
+    "category": "Ready meals",
+    "emoji": "🥭"
+   },
+   "/images/products/illus-ready-meals-1f95f.webp": {
+    "category": "Ready meals",
+    "emoji": "🥟"
+   },
+   "/images/products/illus-ready-meals-1f362.webp": {
+    "category": "Ready meals",
+    "emoji": "🍢"
+   },
+   "/images/products/illus-ready-meals-1f956.webp": {
+    "category": "Ready meals",
+    "emoji": "🥖"
+   },
+   "/images/products/illus-ready-meals-1f35b.webp": {
+    "category": "Ready meals",
+    "emoji": "🍛"
+   },
+   "/images/products/illus-ready-meals-1f35c.webp": {
+    "category": "Ready meals",
+    "emoji": "🍜"
+   },
+   "/images/products/illus-ready-meals-1f357.webp": {
+    "category": "Ready meals",
+    "emoji": "🍗"
+   },
+   "/images/products/illus-ready-meals-1fad3.webp": {
+    "category": "Ready meals",
+    "emoji": "🫓"
+   },
+   "/images/products/illus-ready-meals-1f957.webp": {
+    "category": "Ready meals",
+    "emoji": "🥗"
+   },
+   "/images/products/illus-meat-seafood-1f969.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🥩"
+   },
+   "/images/products/illus-meat-seafood-1f32d.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🌭"
+   },
+   "/images/products/illus-meat-seafood-1f953.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🥓"
+   },
+   "/images/products/illus-meat-seafood-1f354.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🍔"
+   },
+   "/images/products/illus-meat-seafood-1f356.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🍖"
+   },
+   "/images/products/illus-meat-seafood-1f357.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🍗"
+   },
+   "/images/products/illus-meat-seafood-1f414.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🐔"
+   },
+   "/images/products/illus-meat-seafood-1f41f.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🐟"
+   },
+   "/images/products/illus-meat-seafood-1f980.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🦀"
+   },
+   "/images/products/illus-meat-seafood-1f991.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🦑"
+   },
+   "/images/products/illus-meat-seafood-1f9aa.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🦪"
+   },
+   "/images/products/illus-meat-seafood-1f990.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🦐"
+   },
+   "/images/products/illus-fresh-produce-1f344.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍄"
+   },
+   "/images/products/illus-dairy-eggs-1f9c8.webp": {
+    "category": "Dairy & eggs",
+    "emoji": "🧈"
+   },
+   "/images/products/illus-fresh-produce-1fad1.webp": {
+    "category": "Fresh produce",
+    "emoji": "🫑"
+   },
+   "/images/products/illus-fresh-produce-1f34d.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍍"
+   },
+   "/images/products/illus-fresh-produce-1f336.webp": {
+    "category": "Fresh produce",
+    "emoji": "🌶️"
+   },
+   "/images/products/illus-fresh-produce-1f955.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥕"
+   },
+   "/images/products/illus-fresh-produce-1f350.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍐"
+   },
+   "/images/products/illus-fresh-produce-1f383.webp": {
+    "category": "Fresh produce",
+    "emoji": "🎃"
+   },
+   "/images/products/illus-fresh-produce-1f34b.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍋"
+   },
+   "/images/products/illus-ready-meals-1f959.webp": {
+    "category": "Ready meals",
+    "emoji": "🥙"
+   },
+   "/images/products/illus-ready-meals-1f32f.webp": {
+    "category": "Ready meals",
+    "emoji": "🌯"
+   },
+   "/images/products/illus-ready-meals-1f346.webp": {
+    "category": "Ready meals",
+    "emoji": "🍆"
+   },
+   "/images/products/illus-drinks-1f96d.webp": {
+    "category": "Drinks",
+    "emoji": "🥭"
+   },
+   "/images/products/illus-ready-meals-1f370.webp": {
+    "category": "Ready meals",
+    "emoji": "🍰"
+   },
+   "/images/products/illus-ready-meals-1f355.webp": {
+    "category": "Ready meals",
+    "emoji": "🍕"
+   },
+   "/images/products/illus-ready-meals-1f9c4.webp": {
+    "category": "Ready meals",
+    "emoji": "🧄"
+   },
+   "/images/products/illus-ready-meals-1f35d.webp": {
+    "category": "Ready meals",
+    "emoji": "🍝"
+   },
+   "/images/products/illus-ready-meals-1f9c0.webp": {
+    "category": "Ready meals",
+    "emoji": "🧀"
+   },
+   "/images/products/illus-ready-meals-1f96a.webp": {
+    "category": "Ready meals",
+    "emoji": "🥪"
+   },
+   "/images/products/illus-drinks-1f34a.webp": {
+    "category": "Drinks",
+    "emoji": "🍊"
+   },
+   "/images/products/illus-drinks-1f375.webp": {
+    "category": "Drinks",
+    "emoji": "🍵"
+   },
+   "/images/products/illus-ready-meals-1f353.webp": {
+    "category": "Ready meals",
+    "emoji": "🍓"
+   },
+   "/images/products/illus-drinks-1f964.webp": {
+    "category": "Drinks",
+    "emoji": "🥤"
+   },
+   "/images/products/illus-ready-meals-1f363.webp": {
+    "category": "Ready meals",
+    "emoji": "🍣"
+   },
+   "/images/products/illus-bakery-1f9c1.webp": {
+    "category": "Bakery",
+    "emoji": "🧁"
+   },
+   "/images/products/illus-fresh-produce-1f346.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍆"
+   },
+   "/images/products/illus-fresh-produce-1f957.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥗"
+   },
+   "/images/products/illus-fresh-produce-1f96d.webp": {
+    "category": "Fresh produce",
+    "emoji": "🥭"
+   },
+   "/images/products/illus-fresh-produce-1f347.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍇"
+   },
+   "/images/products/illus-fresh-produce-1f352.webp": {
+    "category": "Fresh produce",
+    "emoji": "🍒"
+   },
+   "/images/products/illus-fresh-produce-1fada.webp": {
+    "category": "Fresh produce",
+    "emoji": "🫚"
+   },
+   "/images/products/illus-fresh-produce-1f33d.webp": {
+    "category": "Fresh produce",
+    "emoji": "🌽"
+   },
+   "/images/products/illus-meat-seafood-1f983.webp": {
+    "category": "Meat & seafood",
+    "emoji": "🦃"
+   },
+   "/images/products/illus-health-personal-care-1f484.webp": {
+    "category": "Health & personal care",
+    "emoji": "💄"
+   },
+   "/images/products/illus-health-personal-care-1f9f4.webp": {
+    "category": "Health & personal care",
+    "emoji": "🧴"
+   },
+   "/images/products/illus-health-personal-care-2600.webp": {
+    "category": "Health & personal care",
+    "emoji": "☀️"
+   },
+   "/images/products/illus-health-personal-care-1f321.webp": {
+    "category": "Health & personal care",
+    "emoji": "🌡️"
+   },
+   "/images/products/illus-health-personal-care-1f9c3.webp": {
+    "category": "Health & personal care",
+    "emoji": "🧃"
+   },
+   "/images/products/illus-health-personal-care-1f9fb.webp": {
+    "category": "Health & personal care",
+    "emoji": "🧻"
+   },
+   "/images/products/illus-health-personal-care-1faa5.webp": {
+    "category": "Health & personal care",
+    "emoji": "🪥"
+   },
+   "/images/products/illus-health-personal-care-1f36f.webp": {
+    "category": "Health & personal care",
+    "emoji": "🍯"
+   },
+   "/images/products/illus-health-personal-care-1f33f.webp": {
+    "category": "Health & personal care",
+    "emoji": "🌿"
+   },
+   "/images/products/illus-health-personal-care-1fa79.webp": {
+    "category": "Health & personal care",
+    "emoji": "🩹"
+   },
+   "/images/products/illus-health-personal-care-1f9f0.webp": {
+    "category": "Health & personal care",
+    "emoji": "🧰"
+   },
+   "/images/products/illus-health-personal-care-1f48a.webp": {
+    "category": "Health & personal care",
+    "emoji": "💊"
+   },
+   "/images/products/illus-health-personal-care-1f380.webp": {
+    "category": "Health & personal care",
+    "emoji": "🎀"
+   },
+   "/images/products/illus-health-personal-care-1f99f.webp": {
+    "category": "Health & personal care",
+    "emoji": "🦟"
+   },
+   "/images/products/illus-health-personal-care-1f441.webp": {
+    "category": "Health & personal care",
+    "emoji": "👁️"
+   },
+   "/images/products/illus-home-living-1f56f.webp": {
+    "category": "Home & living",
+    "emoji": "🕯️"
+   },
+   "/images/products/illus-home-living-1f50c.webp": {
+    "category": "Home & living",
+    "emoji": "🔌"
+   },
+   "/images/products/illus-home-living-1f5d1.webp": {
+    "category": "Home & living",
+    "emoji": "🗑️"
+   },
+   "/images/products/illus-home-living-1f6cd.webp": {
+    "category": "Home & living",
+    "emoji": "🛍️"
+   },
+   "/images/products/illus-home-living-1f525.webp": {
+    "category": "Home & living",
+    "emoji": "🔥"
+   },
+   "/images/products/illus-home-living-1fad9.webp": {
+    "category": "Home & living",
+    "emoji": "🫙"
+   },
+   "/images/products/illus-home-living-1f9fa.webp": {
+    "category": "Home & living",
+    "emoji": "🧺"
+   },
+   "/images/products/illus-home-living-1f9fc.webp": {
+    "category": "Home & living",
+    "emoji": "🧼"
+   },
+   "/images/products/illus-home-living-1f4dc.webp": {
+    "category": "Home & living",
+    "emoji": "📜"
+   },
+   "/images/products/illus-home-living-1f961.webp": {
+    "category": "Home & living",
+    "emoji": "🥡"
+   },
+   "/images/products/illus-home-living-1f9f9.webp": {
+    "category": "Home & living",
+    "emoji": "🧹"
+   },
+   "/images/products/illus-home-living-1fab4.webp": {
+    "category": "Home & living",
+    "emoji": "🪴"
+   },
+   "/images/products/illus-home-living-1f9fb.webp": {
+    "category": "Home & living",
+    "emoji": "🧻"
+   },
+   "/images/products/illus-home-living-1f9f4.webp": {
+    "category": "Home & living",
+    "emoji": "🧴"
+   },
+   "/images/products/illus-home-living-1f9fd.webp": {
+    "category": "Home & living",
+    "emoji": "🧽"
+   },
+   "/images/products/illus-home-living-1f4a1.webp": {
+    "category": "Home & living",
+    "emoji": "💡"
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+---
+description: PayFound project architecture, payment safety, and local-first product rules
+alwaysApply: true
+---
+- PayFound is local-store-first. Online/Channel3 offers never prove branch-level stock.
+- Retain Metronic React components and AG Grid/AG Studio for tables and dashboards. Do not substitute generic tables when AG Grid serves the purpose.
+- All merchant payment actions require PayPal provider confirmation, server-side amounts, stable idempotency keys, and financial reconciliation.
+- No autonomous LLM payment, refund, merchant payout, or role escalation. Always require explicit user consent and merchant payment capability.
+- Do not call PayPal with production credentials in this prototype; sandbox only. Never store CLIENT_SECRET in React.
+- No global stock reservation unless the merchant POS enforces it. Demo atomic holds are valid only for PayFound-owned synthetic stock.
+- Separate consumer, merchant, and admin routes at both UI and API layers. Real roles come from server-signed Supabase claims, not client UI selections.
+- Use Supabase Postgres/Auth for staging and production; SQLite demo only. Apply migrations, do not depend indefinitely on Base.metadata.create_all.
+- DEMO_MODE=true MUST stay localhost-only and be disabled on all public deployments.
+- Prefer additive backward-compatible API changes and include tests for success/fail/retry/duplicate events.
+- Update docs/STATUS.md and docs/TESTING.md when behaviour or verification changes.
+- Keep Kafka/Kubernetes in infra/production until measured need; do not burden hackathon prototype.
+- Respect Metronic, AG Studio, PayPal and other sponsor licensing/approvals.

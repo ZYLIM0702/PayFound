@@ -1,0 +1,1733 @@
+{
+ "_note": "Original short prep notes written for PayFound; not copied from any publisher. Ingredient keywords map to catalogue product names.",
+ "recipes": [
+  {
+   "id": "spaghetti-carbonara",
+   "name": "Spaghetti carbonara",
+   "aliases": [
+    "carbonara",
+    "pasta carbonara",
+    "spaghetti carbonara",
+    "pasta",
+    "spaghetti"
+   ],
+   "base_servings": 2,
+   "time": "25 min",
+   "prep": [
+    "Salt the pasta water and boil the spaghetti until just tender.",
+    "Fry the diced bacon until crisp; take the pan off the heat.",
+    "Whisk eggs with grated parmesan and black pepper.",
+    "Toss hot pasta with the bacon, then stir in the egg mix off the heat with a splash of pasta water."
+   ],
+   "ingredients": [
+    {
+     "name": "Spaghetti",
+     "qty": 200,
+     "unit": "g",
+     "keywords": [
+      "spaghetti",
+      "capellini"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Streaky bacon",
+     "qty": 100,
+     "unit": "g",
+     "keywords": [
+      "bacon"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Eggs",
+     "qty": 3,
+     "unit": "whole",
+     "keywords": [
+      "eggs"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Parmesan",
+     "qty": 50,
+     "unit": "g",
+     "keywords": [
+      "parmesan"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Black pepper",
+     "qty": 1,
+     "unit": "pinch",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "pinch",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "spaghetti-bolognese",
+   "name": "Spaghetti bolognese",
+   "aliases": [
+    "bolognese",
+    "spag bol",
+    "ragu"
+   ],
+   "base_servings": 2,
+   "time": "45 min",
+   "prep": [
+    "Soften chopped onion and garlic in olive oil.",
+    "Brown the mince, then add chopped tomatoes and simmer 25 minutes.",
+    "Boil the spaghetti and toss with the sauce."
+   ],
+   "ingredients": [
+    {
+     "name": "Spaghetti",
+     "qty": 200,
+     "unit": "g",
+     "keywords": [
+      "spaghetti",
+      "capellini"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Beef mince",
+     "qty": 300,
+     "unit": "g",
+     "keywords": [
+      "beef mince"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Tomatoes",
+     "qty": 400,
+     "unit": "g",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Yellow onion",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "yellow onions",
+      "red onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 2,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Olive oil",
+     "qty": 2,
+     "unit": "tbsp",
+     "keywords": [
+      "olive oil",
+      "huile d"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Parmesan (to serve)",
+     "qty": 30,
+     "unit": "g",
+     "keywords": [
+      "parmesan"
+     ],
+     "category": "Dairy & eggs",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "aglio-e-olio",
+   "name": "Garlic and chilli spaghetti (aglio e olio)",
+   "aliases": [
+    "aglio e olio",
+    "garlic pasta",
+    "garlic spaghetti",
+    "chilli pasta"
+   ],
+   "base_servings": 2,
+   "time": "15 min",
+   "prep": [
+    "Boil the spaghetti in salted water.",
+    "Gently warm sliced garlic and chilli in olive oil until fragrant, not brown.",
+    "Toss the pasta in the oil with parsley and a splash of pasta water."
+   ],
+   "ingredients": [
+    {
+     "name": "Spaghetti",
+     "qty": 200,
+     "unit": "g",
+     "keywords": [
+      "spaghetti",
+      "capellini"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 4,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red chilli",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "red chillies"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Olive oil",
+     "qty": 4,
+     "unit": "tbsp",
+     "keywords": [
+      "olive oil",
+      "huile d"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Flat parsley",
+     "qty": 1,
+     "unit": "handful",
+     "keywords": [
+      "parsley"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "pinch",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "chicken-curry",
+   "name": "Chicken curry",
+   "aliases": [
+    "curry",
+    "chicken curry"
+   ],
+   "base_servings": 2,
+   "time": "40 min",
+   "prep": [
+    "Cut the chicken into bite-size pieces and season.",
+    "Soften onion, garlic and ginger, then add curry spices and fry for a minute.",
+    "Add chicken, tomatoes and a splash of water; simmer 20 minutes.",
+    "Finish with yoghurt or cream and chopped coriander; serve with rice."
+   ],
+   "ingredients": [
+    {
+     "name": "Chicken thighs or breast",
+     "qty": 400,
+     "unit": "g",
+     "keywords": [
+      "chicken thighs",
+      "chicken breast"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Yellow onion",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "yellow onions",
+      "red onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 3,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Fresh ginger",
+     "qty": 1,
+     "unit": "thumb",
+     "keywords": [
+      "ginger"
+     ],
+     "category": "Fresh produce",
+     "exclude": [
+      "crystallized",
+      "tea",
+      "chocolate"
+     ],
+     "pantry": false,
+     "optional": false
+    },
+    {
+     "name": "Tomatoes",
+     "qty": 200,
+     "unit": "g",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Plain yoghurt",
+     "qty": 100,
+     "unit": "g",
+     "keywords": [
+      "plain yogurt",
+      "greek yogurt"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Rice",
+     "qty": 150,
+     "unit": "g",
+     "keywords": [
+      "basmati rice",
+      "brown rice",
+      "rice blend",
+      "wild rice"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Fresh coriander",
+     "qty": 1,
+     "unit": "handful",
+     "keywords": [
+      "cilantro"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    },
+    {
+     "name": "Curry powder or garam masala",
+     "qty": 2,
+     "unit": "tbsp",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "pinch",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "egg-fried-rice",
+   "name": "Egg fried rice",
+   "aliases": [
+    "fried rice",
+    "egg fried rice",
+    "egg rice"
+   ],
+   "base_servings": 2,
+   "time": "15 min",
+   "prep": [
+    "Cook the rice ahead and let it cool, or use day-old rice.",
+    "Scramble the eggs in a hot pan and set aside.",
+    "Stir-fry spring onion, carrot and rice, add soy sauce, then fold the egg back in."
+   ],
+   "ingredients": [
+    {
+     "name": "Rice",
+     "qty": 200,
+     "unit": "g",
+     "keywords": [
+      "basmati rice",
+      "brown rice",
+      "rice blend",
+      "wild rice"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Eggs",
+     "qty": 2,
+     "unit": "whole",
+     "keywords": [
+      "eggs"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Spring onions",
+     "qty": 3,
+     "unit": "whole",
+     "keywords": [
+      "spring onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Carrots",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "carrots"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Soy sauce",
+     "qty": 2,
+     "unit": "tbsp",
+     "keywords": [
+      "soy sauce"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 2,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "beef-tacos",
+   "name": "Beef tacos",
+   "aliases": [
+    "taco",
+    "tacos",
+    "beef tacos"
+   ],
+   "base_servings": 2,
+   "time": "25 min",
+   "prep": [
+    "Brown the beef mince with the taco seasoning and a splash of water.",
+    "Chop lettuce, tomato and grate the cheese.",
+    "Warm the tortillas and build the tacos."
+   ],
+   "ingredients": [
+    {
+     "name": "Beef mince",
+     "qty": 300,
+     "unit": "g",
+     "keywords": [
+      "beef mince"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Flour tortillas",
+     "qty": 4,
+     "unit": "whole",
+     "keywords": [
+      "tortillas"
+     ],
+     "category": "Bakery",
+     "exclude": [
+      "chips"
+     ],
+     "pantry": false,
+     "optional": false
+    },
+    {
+     "name": "Taco seasoning",
+     "qty": 1,
+     "unit": "pack",
+     "keywords": [
+      "taco seasoning"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Lettuce",
+     "qty": 1,
+     "unit": "head",
+     "keywords": [
+      "lettuce",
+      "romaine"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Tomatoes",
+     "qty": 2,
+     "unit": "whole",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Cheddar",
+     "qty": 60,
+     "unit": "g",
+     "keywords": [
+      "cheddar"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Sour cream",
+     "qty": 100,
+     "unit": "ml",
+     "keywords": [
+      "sour cream"
+     ],
+     "category": "Dairy & eggs",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "greek-salad",
+   "name": "Greek salad",
+   "aliases": [
+    "greek salad"
+   ],
+   "base_servings": 2,
+   "time": "10 min",
+   "prep": [
+    "Chop cucumber and tomatoes into chunks and slice the red onion thin.",
+    "Toss with olive oil and a squeeze of lemon, top with crumbled feta."
+   ],
+   "ingredients": [
+    {
+     "name": "Cucumber",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "cucumbers"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Tomatoes",
+     "qty": 300,
+     "unit": "g",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red onion",
+     "qty": 0.5,
+     "unit": "whole",
+     "keywords": [
+      "red onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Feta",
+     "qty": 150,
+     "unit": "g",
+     "keywords": [
+      "feta"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Olive oil",
+     "qty": 3,
+     "unit": "tbsp",
+     "keywords": [
+      "olive oil",
+      "huile d"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Lemon",
+     "qty": 0.5,
+     "unit": "whole",
+     "keywords": [
+      "lemons"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "cheese-omelette",
+   "name": "Cheese omelette",
+   "aliases": [
+    "omelette",
+    "omelet",
+    "cheese omelette"
+   ],
+   "base_servings": 1,
+   "time": "10 min",
+   "prep": [
+    "Beat the eggs with a pinch of salt.",
+    "Melt butter in a pan, pour in the eggs and stir gently until nearly set.",
+    "Add cheese, fold and serve."
+   ],
+   "ingredients": [
+    {
+     "name": "Eggs",
+     "qty": 3,
+     "unit": "whole",
+     "keywords": [
+      "eggs"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Butter",
+     "qty": 10,
+     "unit": "g",
+     "keywords": [
+      "butter"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Cheddar",
+     "qty": 40,
+     "unit": "g",
+     "keywords": [
+      "cheddar"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Spring onions",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "spring onions"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "pinch",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "shakshuka",
+   "name": "Shakshuka",
+   "aliases": [
+    "shakshuka",
+    "baked eggs"
+   ],
+   "base_servings": 2,
+   "time": "30 min",
+   "prep": [
+    "Soften onion and red pepper in olive oil, add garlic and spices.",
+    "Add chopped tomatoes and simmer until thick.",
+    "Make wells, crack in the eggs, cover and cook until the whites set."
+   ],
+   "ingredients": [
+    {
+     "name": "Eggs",
+     "qty": 4,
+     "unit": "whole",
+     "keywords": [
+      "eggs"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Tomatoes",
+     "qty": 500,
+     "unit": "g",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red bell pepper",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "red bell peppers"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Yellow onion",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "yellow onions",
+      "red onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 2,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Olive oil",
+     "qty": 2,
+     "unit": "tbsp",
+     "keywords": [
+      "olive oil",
+      "huile d"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Flat parsley",
+     "qty": 1,
+     "unit": "handful",
+     "keywords": [
+      "parsley"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "lemon-garlic-salmon",
+   "name": "Lemon garlic salmon",
+   "aliases": [
+    "salmon",
+    "lemon salmon",
+    "baked salmon"
+   ],
+   "base_servings": 2,
+   "time": "25 min",
+   "prep": [
+    "Heat the oven to 200C and lay the salmon on a lined tray.",
+    "Top with sliced garlic, lemon, olive oil and salt.",
+    "Roast 12 to 15 minutes; steam the green beans alongside."
+   ],
+   "ingredients": [
+    {
+     "name": "Salmon fillet",
+     "qty": 300,
+     "unit": "g",
+     "keywords": [
+      "salmon fillet"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Lemon",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "lemons"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 2,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Green beans",
+     "qty": 250,
+     "unit": "g",
+     "keywords": [
+      "green beans"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Olive oil",
+     "qty": 2,
+     "unit": "tbsp",
+     "keywords": [
+      "olive oil",
+      "huile d"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "roast-chicken-potatoes",
+   "name": "Roast chicken with potatoes",
+   "aliases": [
+    "roast chicken",
+    "roast dinner",
+    "sunday roast"
+   ],
+   "base_servings": 4,
+   "time": "1 h 30 min",
+   "prep": [
+    "Heat the oven to 200C; rub the chicken with butter, salt and lemon.",
+    "Scatter chunked potatoes, carrots and onion around it.",
+    "Roast about 75 minutes until the juices run clear; rest 10 minutes."
+   ],
+   "ingredients": [
+    {
+     "name": "Whole chicken",
+     "qty": 1.6,
+     "unit": "kg",
+     "keywords": [
+      "whole chicken"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Potatoes",
+     "qty": 1,
+     "unit": "kg",
+     "keywords": [
+      "russet potatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Carrots",
+     "qty": 500,
+     "unit": "g",
+     "keywords": [
+      "carrots"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Yellow onion",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "yellow onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Butter",
+     "qty": 50,
+     "unit": "g",
+     "keywords": [
+      "butter"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Lemon",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "lemons"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "tsp",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "guacamole",
+   "name": "Guacamole and chips",
+   "aliases": [
+    "guacamole",
+    "guac"
+   ],
+   "base_servings": 4,
+   "time": "10 min",
+   "prep": [
+    "Mash the avocados with lime juice and salt.",
+    "Fold in finely chopped tomato, red onion and coriander.",
+    "Serve with tortilla chips."
+   ],
+   "ingredients": [
+    {
+     "name": "Avocados",
+     "qty": 3,
+     "unit": "whole",
+     "keywords": [
+      "avocados"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Limes",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "limes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Tomato",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red onion",
+     "qty": 0.5,
+     "unit": "whole",
+     "keywords": [
+      "red onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Fresh coriander",
+     "qty": 1,
+     "unit": "handful",
+     "keywords": [
+      "cilantro"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Tortilla chips",
+     "qty": 1,
+     "unit": "bag",
+     "keywords": [
+      "tortilla chips"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "caprese-salad",
+   "name": "Caprese salad",
+   "aliases": [
+    "caprese"
+   ],
+   "base_servings": 2,
+   "time": "5 min",
+   "prep": [
+    "Slice the tomatoes and mozzarella.",
+    "Layer with basil, drizzle with olive oil, add salt and pepper."
+   ],
+   "ingredients": [
+    {
+     "name": "Tomatoes",
+     "qty": 3,
+     "unit": "whole",
+     "keywords": [
+      "roma tomatoes",
+      "cherry tomatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Mozzarella",
+     "qty": 125,
+     "unit": "g",
+     "keywords": [
+      "mozzarella"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Fresh basil",
+     "qty": 1,
+     "unit": "handful",
+     "keywords": [
+      "basil"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Olive oil",
+     "qty": 2,
+     "unit": "tbsp",
+     "keywords": [
+      "olive oil",
+      "huile d"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "mac-and-cheese",
+   "name": "Mac and cheese",
+   "aliases": [
+    "mac and cheese",
+    "mac n cheese",
+    "macaroni cheese"
+   ],
+   "base_servings": 3,
+   "time": "30 min",
+   "prep": [
+    "Boil the pasta until just tender.",
+    "Melt butter, stir in milk and grated cheddar over low heat until smooth.",
+    "Combine with the pasta and serve, or grill for a crust."
+   ],
+   "ingredients": [
+    {
+     "name": "Pasta",
+     "qty": 250,
+     "unit": "g",
+     "keywords": [
+      "spaghetti",
+      "capellini"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Mature cheddar",
+     "qty": 200,
+     "unit": "g",
+     "keywords": [
+      "cheddar"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Milk",
+     "qty": 300,
+     "unit": "ml",
+     "keywords": [
+      "whole milk",
+      "semi-skimmed"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Butter",
+     "qty": 30,
+     "unit": "g",
+     "keywords": [
+      "butter"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "vegetable-stir-fry",
+   "name": "Vegetable stir-fry with rice",
+   "aliases": [
+    "stir fry",
+    "stir-fry",
+    "veggie stir fry",
+    "vegetable stir fry"
+   ],
+   "base_servings": 2,
+   "time": "20 min",
+   "prep": [
+    "Start the rice.",
+    "Stir-fry broccoli, pepper and carrot over high heat with garlic and ginger.",
+    "Add soy sauce and serve over rice."
+   ],
+   "ingredients": [
+    {
+     "name": "Broccoli",
+     "qty": 1,
+     "unit": "head",
+     "keywords": [
+      "broccoli"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red bell pepper",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "red bell peppers"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Carrots",
+     "qty": 2,
+     "unit": "whole",
+     "keywords": [
+      "carrots"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 2,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Soy sauce",
+     "qty": 3,
+     "unit": "tbsp",
+     "keywords": [
+      "soy sauce"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Rice",
+     "qty": 150,
+     "unit": "g",
+     "keywords": [
+      "basmati rice",
+      "brown rice",
+      "rice blend",
+      "wild rice"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "beef-stew",
+   "name": "Beef stew",
+   "aliases": [
+    "beef stew",
+    "stew"
+   ],
+   "base_servings": 4,
+   "time": "2 h 15 min",
+   "prep": [
+    "Brown the diced beef in batches.",
+    "Add onion, carrot, potato and enough water to cover; season.",
+    "Simmer gently for about two hours until the beef is tender."
+   ],
+   "ingredients": [
+    {
+     "name": "Diced stewing beef",
+     "qty": 600,
+     "unit": "g",
+     "keywords": [
+      "stewing beef"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Potatoes",
+     "qty": 500,
+     "unit": "g",
+     "keywords": [
+      "russet potatoes"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Carrots",
+     "qty": 3,
+     "unit": "whole",
+     "keywords": [
+      "carrots"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Yellow onion",
+     "qty": 2,
+     "unit": "whole",
+     "keywords": [
+      "yellow onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Garlic",
+     "qty": 2,
+     "unit": "cloves",
+     "keywords": [
+      "garlic"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "tsp",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "banana-oat-porridge",
+   "name": "Banana oat porridge",
+   "aliases": [
+    "porridge",
+    "oatmeal",
+    "oats"
+   ],
+   "base_servings": 1,
+   "time": "8 min",
+   "prep": [
+    "Simmer oats in milk, stirring, for 5 minutes.",
+    "Top with sliced banana and a drizzle of honey."
+   ],
+   "ingredients": [
+    {
+     "name": "Rolled oats",
+     "qty": 50,
+     "unit": "g",
+     "keywords": [
+      "rolled oats"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Milk",
+     "qty": 250,
+     "unit": "ml",
+     "keywords": [
+      "whole milk",
+      "semi-skimmed"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Banana",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "bananas"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Honey",
+     "qty": 1,
+     "unit": "tbsp",
+     "keywords": [
+      "honey"
+     ],
+     "category": "Groceries",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "chicken-fajitas",
+   "name": "Chicken fajitas",
+   "aliases": [
+    "fajita",
+    "fajitas"
+   ],
+   "base_servings": 3,
+   "time": "25 min",
+   "prep": [
+    "Slice chicken, pepper and onion into strips.",
+    "Fry the chicken, then the vegetables; season with taco seasoning.",
+    "Warm the tortillas and fill with the mix, sour cream and lime."
+   ],
+   "ingredients": [
+    {
+     "name": "Chicken breast",
+     "qty": 400,
+     "unit": "g",
+     "keywords": [
+      "chicken breast"
+     ],
+     "category": "Meat & seafood",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red bell peppers",
+     "qty": 2,
+     "unit": "whole",
+     "keywords": [
+      "red bell peppers"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Red onion",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "red onions"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Flour tortillas",
+     "qty": 6,
+     "unit": "whole",
+     "keywords": [
+      "tortillas"
+     ],
+     "category": "Bakery",
+     "exclude": [
+      "chips"
+     ],
+     "pantry": false,
+     "optional": false
+    },
+    {
+     "name": "Taco seasoning",
+     "qty": 1,
+     "unit": "pack",
+     "keywords": [
+      "taco seasoning"
+     ],
+     "category": "Groceries",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Sour cream",
+     "qty": 100,
+     "unit": "ml",
+     "keywords": [
+      "sour cream"
+     ],
+     "category": "Dairy & eggs",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    },
+    {
+     "name": "Lime",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "limes"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    }
+   ]
+  },
+  {
+   "id": "avocado-egg-toast",
+   "name": "Avocado and egg toast",
+   "aliases": [
+    "avocado toast",
+    "egg toast",
+    "brunch"
+   ],
+   "base_servings": 2,
+   "time": "10 min",
+   "prep": [
+    "Toast the sourdough.",
+    "Mash the avocado with lemon juice and salt and spread it on.",
+    "Top with fried or poached eggs."
+   ],
+   "ingredients": [
+    {
+     "name": "Sourdough loaf",
+     "qty": 4,
+     "unit": "slices",
+     "keywords": [
+      "sourdough"
+     ],
+     "category": "Bakery",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Avocados",
+     "qty": 1,
+     "unit": "whole",
+     "keywords": [
+      "avocados"
+     ],
+     "category": "Fresh produce",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Eggs",
+     "qty": 2,
+     "unit": "whole",
+     "keywords": [
+      "eggs"
+     ],
+     "category": "Dairy & eggs",
+     "pantry": false,
+     "optional": false,
+     "exclude": []
+    },
+    {
+     "name": "Lemon",
+     "qty": 0.5,
+     "unit": "whole",
+     "keywords": [
+      "lemons"
+     ],
+     "category": "Fresh produce",
+     "optional": true,
+     "pantry": false,
+     "exclude": []
+    },
+    {
+     "name": "Salt",
+     "qty": 1,
+     "unit": "pinch",
+     "keywords": [],
+     "category": null,
+     "pantry": true,
+     "optional": false,
+     "exclude": []
+    }
+   ]
+  }
+ ]
+}

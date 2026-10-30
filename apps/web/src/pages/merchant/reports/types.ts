@@ -1,0 +1,24 @@
+export type Cur = { currency: string; captured_amount_cents: number; orders: number; average_basket_cents: number };
+export type CatRow = { category: string; currency: string; amount_cents: number; units: number; orders: number };
+export type BranchRow = { branch: string; currency: string; amount_cents: number; orders: number; collected: number };
+export type ProdRow = { name: string; currency: string; units: number; amount_cents: number };
+export type StockRow = { id: string; name: string; available: number; threshold: number; state: 'low' | 'out' | 'stale' | 'in_stock'; updated_at?: string | null };
+export type SlotCell = { branch: string; hour: number; capacity: number; booked: number; utilisation_pct: number };
+export type Rec = { title: string; detail: string; to: string; action: string };
+export type ReportPackData = {
+  merchant_id: string; store_name: string; days: number; timezone: string; generated_at: string; start_date: string; end_date: string; note: string; sections: string[];
+  summary: { by_currency: Cur[]; orders_in_range: number; pickup_completion_pct: number | null; stock_attention_count: number; out_of_stock: number; low_stock: number; stale_stock: number };
+  sales_trend: { by_currency: Record<string, { date: string; amount_cents: number; orders: number }[]> };
+  categories: CatRow[]; category_by_branch: { branch: string; category: string; currency: string; amount_cents: number }[]; branches: BranchRow[]; top_products: { by_units: ProdRow[]; by_revenue: ProdRow[] };
+  funnel: { reserved: number; paid: number; prepared: number; collected: number; cancelled: number; refunded: number; expired: number };
+  stock_health: { in_stock: number; low: number; out: number; stale: number; threshold: number; attention: StockRow[] };
+  pickup: { collected_by_hour: { hour: number; orders: number }[]; orders_by_hour: { hour: number; orders: number }[]; by_branch: { branch: string; currency: string; collected: number; orders: number }[]; slots: SlotCell[]; slot_capacity: number; slot_booked: number; slot_utilisation_pct: number | null };
+  recommendations: Rec[];
+};
+export type CardMetric = { label: string; value: string; hint?: string | null };
+export type CardTable = { title: string; columns: string[]; rows: (string | number)[][] };
+export type CardChart = { title: string; type: 'bar' | 'line'; labels: string[]; series: { name: string; values: number[] }[] };
+export type CardSection = { id: string; title: string; metrics: CardMetric[]; tables: CardTable[]; charts: CardChart[]; empty?: string | null };
+export type ReportCardData = { title: string; kind: string; days: number; merchant_id: string; store_name: string; start_date: string; end_date: string; generated_at: string; note: string; sections: CardSection[] };
+export type SavedReport = { id: string; merchant_id: string; name: string; kind: string; days: number; focus: string | null; created_at: string };
+export type CardRecipe = { kind: string; days: number; focus?: string | null; title?: string };
